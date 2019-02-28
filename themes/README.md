@@ -56,6 +56,9 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 
 ## Source
 
+These are screenshots from Superhuman from which this theme is derived. Superhuman uses a custom 
+version of the Operator Mono Book font.
+
 ### Superhuman Light
 
 <p align="center">

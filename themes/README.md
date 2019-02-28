@@ -29,22 +29,22 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 
 ## Previews
 
-### Superhuman Light
+### Superhuman Snow
 
 <p align="center">
-  <img src="previews/superhuman-light.png" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
+  <img src="previews/superhuman-snow.png" width="60%" alt="Superhuman Snow - Alfred Theme Preview" />
 </p>
 
 <p align="center">
-  <a href="Superhuman%20Light.alfredappearance">
-    Download - Superhuman Light Theme
+  <a href="Superhuman%20LSnow.alfredappearance">
+    Download - Superhuman Snow Theme
   </a>
 </p>
 
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="previews/superhuman-carbon.png" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
+  <img src="previews/superhuman-carbon.png" width="60%" alt="Superhuman Carbon - Alfred Theme Preview" />
 </p>
 
 <p align="center">
@@ -59,10 +59,10 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 These are screenshots from Superhuman from which this theme is derived. Superhuman uses a custom 
 version of the Operator Mono Book font.
 
-### Superhuman Light
+### Superhuman Snow
 
 <p align="center">
-  <img src="superhuman-light-source.png" width="60%" alt="Superhuman Light Source" />
+  <img src="superhuman-snow-source.png" width="60%" alt="Superhuman Snow Source" />
 </p>
 
 

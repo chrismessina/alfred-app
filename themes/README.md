@@ -44,7 +44,7 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="previews/superhuman-carbon.jpg" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
+  <img src="previews/superhuman-carbon.png" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
 </p>
 
 <p align="center">
@@ -59,12 +59,12 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 ### Superhuman Light
 
 <p align="center">
-  <img src="superhuman-light-source.jpg" width="60%" alt="Superhuman Light Source" />
+  <img src="superhuman-light-source.png" width="60%" alt="Superhuman Light Source" />
 </p>
 
 
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="superhuman-carbon-source.jpg" width="60%" alt="Superhuman Carbon Source" />
+  <img src="superhuman-carbon-source.png" width="60%" alt="Superhuman Carbon Source" />
 </p>

@@ -32,7 +32,7 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 ### Superhuman Light
 
 <p align="center">
-  <img src="previews/superhuman-light.jpg" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
+  <img src="previews/superhuman-light.png" width="60%" alt="Superhuman Light - Alfred Theme Preview" />
 </p>
 
 <p align="center">

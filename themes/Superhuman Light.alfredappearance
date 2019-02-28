@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FFFFFFC4",
+        "font" : "Fira Code",
+        "color" : "#EEEFEE4C"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Fira Code",
+        "color" : "#EDEFF07F"
+      },
+      "backgroundSelected" : "#353635FF",
+      "text" : {
+        "size" : 17,
+        "colorSelected" : "#FBFCFFE5",
+        "font" : "Fira Code",
+        "color" : "#FEFFFE7F"
+      },
+      "iconPaddingHorizontal" : 4,
+      "paddingVertical" : 10,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 7,
+      "background" : "#676D7600",
+      "spacing" : 4,
+      "text" : {
+        "size" : 21,
+        "colorSelected" : "#000000FF",
+        "font" : "Fira Code",
+        "color" : "#FEFFFFE5"
+      },
+      "backgroundSelected" : "#B3D7FFFF"
+    },
+    "window" : {
+      "color" : "#1E1F1EF9",
+      "paddingHorizontal" : 0,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 5,
+      "roundness" : 3,
+      "paddingVertical" : 7
+    },
+    "credit" : "Chris Messina",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#ACB0DCFF",
+      "thickness" : 2
+    },
+    "name" : "Superhuman Light"
+  }
+}

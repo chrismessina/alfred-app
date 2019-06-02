@@ -36,7 +36,7 @@ This theme makes use of the open source <a href="https://github.com/tonsky/FiraC
 </p>
 
 <p align="center">
-  <a href="Superhuman%20LSnow.alfredappearance">
+  <a href="Superhuman%20Snow.alfredappearance">
     Download - Superhuman Snow Theme
   </a>
 </p>

@@ -19,24 +19,24 @@ Activate Alfred and type `new`. You can then select from a list of existing .new
 
 The list of existing services includes:
 
-Aanchor
-Bitly
-Google Calendar
-Canva
-Coda
-Google Docs
-Google Drawings
-Google Forms
-Github
-Google Keep
-Medium
-Google Slides
-Product Hunt
-Runkit
-Google Sheets
-Spotify
-Stripe
-Webex
+* Anchor
+* Bitly
+* Google Calendar
+* Canva
+* Coda
+* Google Docs
+* Google Drawings
+* Google Forms
+* Github
+* Google Keep
+* Medium
+* Google Slides
+* Product Hunt
+* Runkit
+* Google Sheets
+* Spotify
+* Stripe
+* Webex
 
 ## Customizing
 

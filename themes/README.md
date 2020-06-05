@@ -13,7 +13,7 @@ is considered the fastest email experience ever made.
 
 ## Installation
 
-Download your preferred theme below and then double-click the .alfredappearance file to install it.
+Download your preferred theme below, unzip the file, and then double-click the .alfredappearance file to install it.
 
 
 ## Tips
@@ -36,7 +36,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 </p>
 
 <p align="center">
-  <a href="./Superhuman%20Snow.alfredappearance">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/Superhuman%20Snow.zip">
     Download - Superhuman Snow Theme
   </a>
 </p>
@@ -48,7 +48,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 </p>
 
 <p align="center">
-  <a href="./Superhuman%20Carbon.alfredappearance">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/Superhuman%20Carbon.zip">
     Download - Superhuman Carbon Theme
   </a>
 </p>

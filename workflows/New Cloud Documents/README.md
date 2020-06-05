@@ -7,8 +7,8 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 ## Installation
 
-# Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/New%20Cloud%20Documents/dot-new-alfred-workflow.zip). 
-# Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
+1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/New%20Cloud%20Documents/dot-new-alfred-workflow.zip). 
+2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
 _You will need to be an Alfred [Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
 

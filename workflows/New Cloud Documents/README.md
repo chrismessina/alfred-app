@@ -1,3 +1,5 @@
+// Copyright (c) 2019 - 2020 Chris Messina. Licensed under MIT License.
+
 # .New Alfred Workflow
 ## dot-new-alfred-workflow
 

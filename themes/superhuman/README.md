@@ -1,5 +1,3 @@
-// Copyright (c) 2019 - 2020 Chris Messina. Licensed under MIT License.
-
 # Alfred Powerpack Themes
 
 Here are two Alfred Powerpack Themes that are based on the Superhuman email client color schemes.
@@ -28,7 +26,7 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 ### Superhuman Snow
 
 <p align="center">
-  <img src="./assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview" />
+  <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview" />
 </p>
 
 <p align="center">
@@ -40,7 +38,7 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="./assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview" />
+  <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview" />
 </p>
 
 <p align="center">
@@ -58,12 +56,12 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 ### Superhuman Snow
 
 <p align="center">
-  <img src="./assets/images/superhuman-snow-source.png" alt="Superhuman Snow Source" />
+  <img src="../assets/images/superhuman-snow-source.png" alt="Superhuman Snow Source" />
 </p>
 
 
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="./assets/images/superhuman-carbon-source.png" alt="Superhuman Carbon Source" />
+  <img src="../assets/images/superhuman-carbon-source.png" alt="Superhuman Carbon Source" />
 </p>

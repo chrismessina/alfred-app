@@ -1,6 +1,6 @@
-# Alfred Powerpack Themes
+# Superhuman Powerpack Themes
 
-Here are two Alfred Powerpack Themes that are based on the Superhuman email client color schemes.
+Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on the Superhuman email client color schemes.
 
 [Superhuman](https://superhuman.com/) is a premium front-end for Gmail and is considered the fastest email experience ever made.
 

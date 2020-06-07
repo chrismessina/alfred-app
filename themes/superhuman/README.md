@@ -20,7 +20,7 @@ Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance ›
 
 Simplify results by switching the result subtext to "Only for Alternative Actions".
 
-[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png))
+[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png)
 
 
 ## Previews
@@ -57,12 +57,12 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 
 ### Superhuman Snow
 
-[![Superhuman Snow Source](../assets/images/superhuman-snow-source.png)](../assets/images/superhuman-snow-source.png))
+[![Superhuman Snow Source](../assets/images/superhuman-snow-source.png)](../assets/images/superhuman-snow-source.png)
 
 
 ### Superhuman Carbon
 
-[![Superhuman Snow Source](../assets/images/superhuman-carbon-source.png)](../assets/images/superhuman-carbon-source.png))
+[![Superhuman Snow Source](../assets/images/superhuman-carbon-source.png)](../assets/images/superhuman-carbon-source.png)
 
 ## Contact
 

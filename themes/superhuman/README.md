@@ -20,13 +20,19 @@ Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance ›
 
 Simplify results by switching the result subtext to "Only for Alternative Actions".
 
+<p align="center">
+  <img src="../assets/images/alfred-appearance-options.png" alt="Alfred Appearance Options">
+</p>
+
 
 ## Previews
 
 ### Superhuman Snow
 
 <p align="center">
-  <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview" />
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip">
+    <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview">
+  </a>
 </p>
 
 <p align="center">
@@ -38,7 +44,9 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview" />
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip">
+    <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview">
+  </a>
 </p>
 
 <p align="center">
@@ -56,12 +64,16 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 ### Superhuman Snow
 
 <p align="center">
-  <img src="../assets/images/superhuman-snow-source.png" alt="Superhuman Snow Source" />
+  <img src="../assets/images/superhuman-snow-source.png" alt="Superhuman Snow Source">
 </p>
 
 
 ### Superhuman Carbon
 
 <p align="center">
-  <img src="../assets/images/superhuman-carbon-source.png" alt="Superhuman Carbon Source" />
+  <img src="../assets/images/superhuman-carbon-source.png" alt="Superhuman Carbon Source">
 </p>
+
+## Contact
+
+This theme was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).

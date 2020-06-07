@@ -20,20 +20,16 @@ Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance ›
 
 Simplify results by switching the result subtext to "Only for Alternative Actions".
 
-<p align="center">
-  <img src="../assets/images/alfred-appearance-options.png" alt="Alfred Appearance Options">
-</p>
+[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png))
 
 
 ## Previews
 
 ### Superhuman Snow
 
-<p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip">
-    <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview">
-  </a>
-</p>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip">
+  <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview">
+</a>
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip">
@@ -43,11 +39,9 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 
 ### Superhuman Carbon
 
-<p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip">
-    <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview">
-  </a>
-</p>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip">
+  <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview">
+</a>
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip">
@@ -63,16 +57,12 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 
 ### Superhuman Snow
 
-<p align="center">
-  <img src="../assets/images/superhuman-snow-source.png" alt="Superhuman Snow Source">
-</p>
+[![Superhuman Snow Source](../assets/images/superhuman-snow-source.png)](../assets/images/superhuman-snow-source.png))
 
 
 ### Superhuman Carbon
 
-<p align="center">
-  <img src="../assets/images/superhuman-carbon-source.png" alt="Superhuman Carbon Source">
-</p>
+[![Superhuman Snow Source](../assets/images/superhuman-carbon-source.png)](../assets/images/superhuman-carbon-source.png))
 
 ## Contact
 

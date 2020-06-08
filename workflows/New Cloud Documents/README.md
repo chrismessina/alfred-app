@@ -1,18 +1,17 @@
-# .New Alfred Workflow
-## dot-new-alfred-workflow
+# dot-new-alfred-workflow
 
 [.new](https://whats.new/) is a domain extension exclusively for performing new actions online: any act that leads to creation can have a quick and memorable .new shortcut associated with it.
 
 This Alfred Workflow allows you to quickly create new cloud documents simply by invoking the 'new' keyword, a space, and then selecting from the list of available options.
 
-## Installation
+# Installation
 
 1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/New%20Cloud%20Documents/dot-new-alfred-workflow.zip).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
 _You will need to be an Alfred [Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
 
-## Usage
+# Usage
 
 Activate Alfred and type `new`. You can then select from a list of existing .new cloud documents (with a few bonuses thrown in):
 
@@ -45,16 +44,18 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 <img src="./assets/images/workflow-ui.png">
 
-## Changelog
+# Changelog
 
-### v1.0.1 (2020-06-08)
+## [0.1.1] - 2020-06-08
 
-Update Workflow description and add link to homepage.
+### Added
+- Added Workflow description and add link to homepage.
 
-### v1.0.0 (2020-06-05)
+## [v0.1.0] - 2020-06-05
+- Initial Release
 
-Initial Release
+_Inspired by [Keep a Changelog](https://keepachangelog.com/)_
 
-## Contact
+# Contact
 
 This workflow was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).

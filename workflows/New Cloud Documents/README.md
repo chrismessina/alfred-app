@@ -1,5 +1,3 @@
-// Copyright (c) 2019 - 2020 Chris Messina. Licensed under MIT License.
-
 # .New Alfred Workflow
 ## dot-new-alfred-workflow
 
@@ -46,6 +44,16 @@ The list of existing services includes:
 You can add new services to the workflow simply by adding a new shortcut to the List Filter that includes a Title, Subtitle, and argument (i.e. the URL used to create a new document). An icon is optional, but preferable.
 
 <img src="./assets/images/workflow-ui.png">
+
+## Changelog
+
+### v1.0.0
+
+Initial Release
+
+### v1.0.1
+
+Update Workflow description and add link to homepage.
 
 ## Contact
 

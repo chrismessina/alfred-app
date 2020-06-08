@@ -47,13 +47,13 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 ## Changelog
 
-### v1.0.0
-
-Initial Release
-
-### v1.0.1
+### v1.0.1 (2020-06-08)
 
 Update Workflow description and add link to homepage.
+
+### v1.0.0 (2020-06-05)
+
+Initial Release
 
 ## Contact
 

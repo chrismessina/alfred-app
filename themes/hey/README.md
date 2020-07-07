@@ -29,9 +29,7 @@
 
 # Hey Powerpack Theme
 
-Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on the Hey email color schemes.
-
-[Hey](https://hey.com/) is a new take on email from Basecamp.
+Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on [Hey](https://hey.com/), a new take on email from Basecamp.
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Themes%20for%20Alfred.zip" class="button">

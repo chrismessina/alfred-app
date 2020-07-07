@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 15,
+        "colorSelected" : "#6E6978FF",
+        "font" : "System Light",
+        "color" : "#6E6978FF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#0171DFFF",
+        "font" : "System Light",
+        "color" : "#EDEFF07F"
+      },
+      "backgroundSelected" : "#F0F5FBFF",
+      "text" : {
+        "size" : 20,
+        "colorSelected" : "#231B34FF",
+        "font" : "System",
+        "color" : "#231B34FF"
+      },
+      "iconPaddingHorizontal" : 11,
+      "paddingVertical" : 13,
+      "iconSize" : 44
+    },
+    "search" : {
+      "paddingVertical" : 16,
+      "background" : "#FDFEFCFF",
+      "spacing" : 4,
+      "text" : {
+        "size" : 44,
+        "colorSelected" : "#000000FF",
+        "font" : "San Francisco Text Bold",
+        "color" : "#231C33FF"
+      },
+      "backgroundSelected" : "#B2D7FEFF"
+    },
+    "window" : {
+      "color" : "#FEFFFEFF",
+      "paddingHorizontal" : 55,
+      "width" : 559,
+      "borderPadding" : 18,
+      "borderColor" : "#FDFEFCFF",
+      "blur" : 5,
+      "roundness" : 20,
+      "paddingVertical" : 0
+    },
+    "credit" : "Chris Messina",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#5200FFFF",
+      "thickness" : 2
+    },
+    "name" : "Hey Theme (Light)"
+  }
+}

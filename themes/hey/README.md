@@ -1,8 +1,46 @@
-# Hey.com Powerpack Theme
+<style>
+  .button {
+    transition: color 0.2s ease, text-decoration-color 0.2s ease, box-shadow 0.2s ease;
+    transform: none;
+    margin: 0 0 0 0.6em;
+    display: inline-block;
+    line-height: 1.5;
+    font-weight: 700;
+  	display: inline-block;
+  	padding: 0.4em 1em;
+  	color: #fff;
+  	text-decoration: none;
+  	text-align: center;
+  	line-height: normal;
+  	-webkit-appearance: none;
+  	background-color: #5522fa !important;
+  	background: linear-gradient(90deg, #5522fa 0%, #0074e4 100%) !important;
+  	border-radius: 1.5em;
+  	border: 0;
+  	box-shadow: none;
+  }
+  .button:hover {
+  	color: var(--color-sheet);
+  	cursor: pointer;
+  	text-decoration: none;
+  	box-shadow: 0 0 0 0.15rem #5fddc5;
+  }
+</style>
+
+# Hey Powerpack Theme
 
 Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on the Hey email color schemes.
 
 [Hey](https://hey.com/) is a new take on email from Basecamp.
+
+
+## Download
+
+<p align="center">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Themes%20for%20Alfred.zip" class="button">
+    Download Both Themes
+  </a>
+</p>
 
 
 ## Installation
@@ -10,17 +48,6 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
 Download your preferred theme below, unzip the file, and then double-click the `.alfredappearance` file to install it.
 
 This theme makes use of Apple's [San Francisco font](https://developer.apple.com/fonts/). [Download it here](https://developer.apple.com/design/downloads/SF-Font-Pro.dmg).
-
-
-## Tips
-
-Disable the Alfred hat logo by unchecking: `Alfred Preferences › Appearance › Options › Hide hat on Alfred window`
-
-Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance › Options › Hide result shortcuts`
-
-Simplify results by switching the result subtext to "Only for Alternative Actions".
-
-[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png)
 
 
 ## Previews
@@ -32,7 +59,7 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 </a>
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Light).zip">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Light).zip" class="button">
     Download - Hey Theme (Light)
   </a>
 </p>
@@ -44,22 +71,32 @@ Simplify results by switching the result subtext to "Only for Alternative Action
 </a>
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Dark).zip">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Dark).zip" class="button">
     Download - Hey Theme (Dark)
   </a>
 </p>
 
+## Suggested configuration
+
+Disable the Alfred hat logo by unchecking: `Alfred Preferences › Appearance › Options › Hide hat on Alfred window`
+
+Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance › Options › Hide result shortcuts`
+
+Simplify results by switching the result subtext to "Only for Alternative Actions".
+
+[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png)
+
 
 ## Inspiration
 
-These are screenshots from Hey from which this theme is derived.
+These are the Hey interfaces from which this theme is derived.
 
-### Hey Light
+### Hey Light Theme
 
 [![Hey Source](../assets/images/hey-light-source.png)](../assets/images/hey-light-source.png)
 
 
-### Hey Dark
+### Hey Dark Theme
 
 [![Hey Source](../assets/images/hey-dark-source.png)](../assets/images/hey-dark-source.png)
 

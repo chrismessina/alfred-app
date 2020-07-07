@@ -17,9 +17,13 @@
   	cursor: pointer;
   	white-space: nowrap;
   	outline: 0;
+    color: #fff;
+    text-transform: uppercase;
+	   line-height: 42px;
   }
   .button:hover {
   	box-shadow: 0 14px 40px -10px rgba(0,0,0,.35), 0 14px 40px -10px rgba(0,0,0,.35);
+    font-weight: normal;
   }
 </style>
 

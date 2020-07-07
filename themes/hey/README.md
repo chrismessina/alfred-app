@@ -20,7 +20,7 @@
   	box-shadow: none;
   }
   .button:hover {
-  	color: var(--color-sheet);
+  	color: #fff;
   	cursor: pointer;
   	text-decoration: none;
   	box-shadow: 0 0 0 0.15rem #5fddc5;
@@ -33,12 +33,9 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
 
 [Hey](https://hey.com/) is a new take on email from Basecamp.
 
-
-## Download
-
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Themes%20for%20Alfred.zip" class="button">
-    Download Both Themes
+    Download Themes
   </a>
 </p>
 
@@ -100,6 +97,8 @@ These are the Hey interfaces from which this theme is derived.
 
 [![Hey Source](../assets/images/hey-dark-source.png)](../assets/images/hey-dark-source.png)
 
-## Contact
+## About
 
 This theme was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+
+These themes are unaffiliated nor endorsed by Basecamp.

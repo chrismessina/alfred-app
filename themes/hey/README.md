@@ -19,11 +19,14 @@
   	border: 0;
   	box-shadow: none;
   }
-  .button:hover {
+  .button:hover, .button:focus {
   	color: #fff;
   	cursor: pointer;
   	text-decoration: none;
   	box-shadow: 0 0 0 0.15rem #5fddc5;
+  }
+  .button:visited {
+    color: #fff;
   }
 </style>
 

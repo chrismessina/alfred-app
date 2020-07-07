@@ -21,9 +21,12 @@
     text-transform: uppercase;
 	   line-height: 42px;
   }
-  .button:hover {
+  .button:hover, .button:focus {
   	box-shadow: 0 14px 40px -10px rgba(0,0,0,.35), 0 14px 40px -10px rgba(0,0,0,.35);
     font-weight: normal;
+    color: #fff;
+  }
+  .button:visited {
     color: #fff;
   }
 </style>

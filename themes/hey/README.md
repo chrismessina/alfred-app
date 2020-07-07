@@ -56,12 +56,12 @@ These are screenshots from Hey from which this theme is derived.
 
 ### Hey Light
 
-[![Superhuman Snow Source](../assets/images/hey-light-source.png)](../assets/images/hey-light-source.png)
+[![Hey Source](../assets/images/hey-light-source.png)](../assets/images/hey-light-source.png)
 
 
 ### Hey Dark
 
-[![Superhuman Snow Source](../assets/images/hey-dark-source.png)](../assets/images/hey-dark-source.png)
+[![Hey Source](../assets/images/hey-dark-source.png)](../assets/images/hey-dark-source.png)
 
 ## Contact
 

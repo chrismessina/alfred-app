@@ -28,11 +28,11 @@ To enable integration with the Twitter for Mac app:
 1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
 2. Access the workflow and variables configuration here:
 
-<img src="./assets/workflow-variables.png">
+<img src="./assets/workflow-variables-crop.png">
 
 3. Set the `platform` variable in the configuration to `app` (1).
 
-<img src="./assets/workflow-config.png">
+<img src="./assets/workflow-config-crop.png">
 
 To disable this integration, set the 'platform' variable to `web`.
 
@@ -45,52 +45,52 @@ This workflow also makes it easy to search your own tweets or find content from 
 
 # Keywords
 
-**tweet**
+**tweet **
 
- Compose new Tweet
+Compose new Tweet
 
-**follow**
+**follow **
 
- Follow {query} on Twitter
+Follow {query} on Twitter
 
-**trending**
+**trending **
 
- See what’s happening
+See what’s happening
 
-**tweets**
+**tweets **
 
- Search Twitter for {query}
-⌘ Search my tweets for {query}
+Search Twitter for {query}<br>
+⌘ Search my tweets for {query}<br>
 Search tweets from people I follow for {query}
 
 **my**
 
-Search my tweets for {query}
-Search my tweets for #{query}
+Search my tweets for {query}<br>
+Search my tweets for #{query}<br>
 Search people I follow for {query}
 
-**me**
+**me **
 
- Go to my profile on Twitter
+Go to my profile on Twitter
 
 **#**
 
-Search Twitter for #{query}
+Search Twitter for #{query}<br>
 ⌘ Search my tweets for #{query}
 
-**@**
+**@ **
 
- Go to Twitter user @{query}
+Go to Twitter user @{query}<br>
 Search Twitter for @{query}
 
 **images**
 
-Search Twitter images for {query}
+Search Twitter images for {query}<br>
 ⌘ Search my Twitter images for {query}
 
 **videos**
 
-Search Twitter videos for {query}
+Search Twitter videos for {query}<br>
 ⌘ Search my Twitter videos for {query}
 
 **users**
@@ -101,9 +101,9 @@ Search Twitter users for {query}
 
 Get embed code for a tweet (requires link to tweet)
 
-**dms**
+**dms **
 
- Go to Twitter messages
+Go to Twitter messages
 
 
 # Changelog

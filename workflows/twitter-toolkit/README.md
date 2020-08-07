@@ -1,5 +1,7 @@
 # Twitter Toolkit for Alfred
 
+<img src="./assets/icon-twitter.png" alt="Twitter logo" width="128" height="128">
+
 The Twitter Toolkit for Alfred is a set of keywords that let you quickly interact with Twitter's website and [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4).
 
 It makes it easy to quickly search and find your own content or the content of people you follow.
@@ -8,9 +10,9 @@ Please note that this extension doesn't support programmatic access to Twitter. 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128"></a>
 
-1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit-alfred-workflow.zip).
+1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.zip).
 2. Double-click `twitter-toolkit.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
@@ -28,11 +30,11 @@ To enable integration with the Twitter for Mac app:
 1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
 2. Access the workflow and variables configuration here:
 
-<img src="./assets/workflow-variables-crop.png">
+<img src="./assets/workflow-variables-crop.png" alt="Alfred interface for accessing the workflow and variables configuration">
 
 3. Set the `platform` variable in the configuration to `app` ➊.
 
-<img src="./assets/workflow-config-crop.png">
+<img src="./assets/workflow-config-crop.png" alt="Alfred interface showing where to change the variables">
 
 To disable this integration, set the 'platform' variable to `web`.
 
@@ -112,6 +114,10 @@ Go to Twitter messages
 - Initial Release
 
 _Inspired by [Keep a Changelog](https://keepachangelog.com/)_
+
+# About
+
+This workflow is unaffiliated nor endorsed by Twitter.
 
 # Contact
 

@@ -8,7 +8,7 @@ Please note that this extension doesn't support programmatic access to Twitter. 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit-alfred-workflow.zip"><img src="../../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
 
 1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit-alfred-workflow.zip).
 2. Double-click `twitter-toolkit.alfredworkflow` to install it.

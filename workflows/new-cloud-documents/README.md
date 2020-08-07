@@ -6,7 +6,7 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
 
 1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.

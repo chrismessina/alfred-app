@@ -4,7 +4,10 @@
 
 The Twitter Toolkit for Alfred is a set of keywords that let you quickly interact with Twitter's website and [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4).
 
-It makes it easy to quickly search and find your own content or the content of people you follow.
+It makes it easy to quickly search and find your own content or the content of people you follow (shown using my <a href="../../themes/hey">Hey Theme</a>):
+
+<img src="./assets/twitter-toolkit-my.png" alt="Preview of Twitter Toolkit search for my tweets">
+
 
 Please note that this extension doesn't support programmatic access to Twitter. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
 

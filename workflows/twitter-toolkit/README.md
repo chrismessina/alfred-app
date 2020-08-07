@@ -1,6 +1,6 @@
 # Twitter Toolkit for Alfred
 
-<img src="./assets/icon-twitter.png" alt="Twitter logo" width="128" height="128">
+<img src="../../assets/icon-twitter.png" alt="Twitter logo" width="128" height="128">
 
 The Twitter Toolkit for Alfred is a set of keywords that let you quickly interact with Twitter's website and [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4).
 
@@ -28,13 +28,13 @@ Look for the  symbol below to see which features work with Twitter for Mac.
 To enable integration with the Twitter for Mac app:
 
 1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
-2. Access the workflow and variables configuration here:
+2. Access the workflow and variables configuration [here](./assets/workflow-variables.png):
 
-<img src="./assets/workflow-variables-crop.png" alt="Alfred interface for accessing the workflow and variables configuration">
+<a href="./assets/workflow-variables.png"><img src="./assets/workflow-variables-crop.png" alt="Alfred interface for accessing the workflow and variables configuration"></a>
 
-3. Set the `platform` variable in the configuration to `app` ➊.
+3. Set the `platform` variable in [the configuration](./assets/workflow-config.png) to `app` ➊.
 
-<img src="./assets/workflow-config-crop.png" alt="Alfred interface showing where to change the variables">
+<a href="./assets/workflow-config.png"><img src="./assets/workflow-config-crop.png" alt="Alfred interface showing where to change the variables"></a>
 
 To disable this integration, set the 'platform' variable to `web`.
 

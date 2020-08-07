@@ -1,4 +1,4 @@
-# dot-new-alfred-workflow
+# Dot New Alfred Workflow
 
 [.new](https://whats.new/) is a domain extension exclusively for performing new actions online: any act that leads to creation can have a quick and memorable .new shortcut associated with it.
 
@@ -6,7 +6,7 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 # Installation
 
-1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/New%20Cloud%20Documents/dot-new-alfred-workflow.zip).
+1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
 _You will need to be an Alfred [Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
@@ -17,26 +17,34 @@ Activate Alfred and type `new`. You can then select from a list of existing .new
 
 <img src="./assets/images/preview-animated.gif">
 
-The list of existing services includes:
+Among the list of services included:
 
-* Anchor
-* Bitly
-* Google Calendar
-* Canva
-* Coda
-* Google Docs
-* Google Drawings
-* Google Forms
-* Github
-* Google Keep
-* Medium
-* Google Slides
-* Product Hunt
-* Runkit
-* Google Sheets
-* Spotify
-* Stripe
-* Webex
+* Anchor: `episode`, `podcast`
+* Adobe: `compresspdf`, `create`, `pdf`, `sign`, `spark`
+* Asana: `task`
+* Bitly: `bitly`, `link`
+* Canva: `canva`, `design`
+* Coda: `coda`
+* Code Sandbox: `csb`, `js`, `ng`, `ts`, `react`, `vue`
+* Discord: `discord`
+* eBay: `sell`
+* Google Calendar: `cal`, `meeting`
+* Google Docs: `doc`, `docs`
+* Google Drawings: `drawing`
+* Google Forms: `form`, `forms`
+* Google Keep: `keep`
+* Google Slides: `slide`, `slides`
+* Google Sheets: `sheet`, `sheets`
+* Github: `gist`, `repo`
+* Medium: `medium`, `story`
+* Prezi: `prezi`
+* Product Hunt: `hunt`
+* Runkit:`api`
+* Shopify: `shopify`
+* Spotify: `playlist`
+* Stripe: `invoice`, `subscription`
+* Webex: `letsmeet`, `webex`
+* WIP: `todo`
 
 ## Customizing
 
@@ -45,6 +53,12 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 <img src="./assets/images/workflow-ui.png">
 
 # Changelog
+
+## [0.2.0] - 2020-08-06
+
+### Added
+- Added support for [CodeSandbox](https://codesandbox.io/)[1](https://twitter.com/compuives/status/1291020566221205511?s=21) and [WIP](https://wip.chat/) shortcuts (h/t [Nathan Gathright](https://nathangathright.com/))
+- Added another dozen
 
 ## [0.1.1] - 2020-06-08
 

@@ -1,8 +1,8 @@
-# Alfred Powerpack Themes
+# Alfred Themes
 
-You can find my Alfred Powerpack Themes [here](./themes).
+You can find my Alfred Themes [here](./themes).
 
 
-# Alfred Powerpack Workflows
+# Alfred Workflows
 
-You can find my Alfred Powerpack Workflows [here](./workflows).
+You can find my Alfred Workflows [here](./workflows).

@@ -1,4 +1,4 @@
-# Dot New Alfred Workflow
+# .New Cloud Documents for Alfred
 
 [.new](https://whats.new/) is a domain extension exclusively for performing new actions online: any act that leads to creation can have a quick and memorable .new shortcut associated with it.
 
@@ -6,10 +6,12 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 # Installation
 
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
+
 1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
-_You will need to be an Alfred [Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
+_You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
 
 # Usage
 
@@ -25,7 +27,7 @@ Among the list of services included:
 * Bitly: `bitly`, `link`
 * Canva: `canva`, `design`
 * Coda: `coda`
-* Code Sandbox: `csb`, `js`, `ng`, `ts`, `react`, `vue`
+* CodeSandbox: `csb`, `js`, `ng`, `ts`, `react`, `vue`
 * Discord: `discord`
 * eBay: `sell`
 * Google Calendar: `cal`, `meeting`
@@ -58,7 +60,7 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 ### Added
 - Added support for [CodeSandbox](https://codesandbox.io/)[1](https://twitter.com/compuives/status/1291020566221205511?s=21) and [WIP](https://wip.chat/) shortcuts (h/t [Nathan Gathright](https://nathangathright.com/))
-- Added another dozen
+- Added another dozen or so of recently added services.
 
 ## [0.1.1] - 2020-06-08
 

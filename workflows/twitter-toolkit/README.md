@@ -28,11 +28,11 @@ To enable integration with the Twitter for Mac app:
 1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
 2. Access the workflow and variables configuration here:
 
-<img src="./assets/images/workflow-variables.png">
+<img src="./assets/workflow-variables.png">
 
 3. Set the `platform` variable in the configuration to `app` (1).
 
-<img src="./assets/images/workflow-config.png">
+<img src="./assets/workflow-config.png">
 
 To disable this integration, set the 'platform' variable to `web`.
 
@@ -46,50 +46,63 @@ This workflow also makes it easy to search your own tweets or find content from 
 # Keywords
 
 **tweet**
+
  Compose new Tweet
 
 **follow**
+
  Follow {query} on Twitter
 
 **trending**
+
  See what’s happening
 
 **tweets**
+
  Search Twitter for {query}
 ⌘ Search my tweets for {query}
 Search tweets from people I follow for {query}
 
 **my**
+
 Search my tweets for {query}
 Search my tweets for #{query}
 Search people I follow for {query}
 
 **me**
+
  Go to my profile on Twitter
 
 **#**
+
 Search Twitter for #{query}
 ⌘ Search my tweets for #{query}
 
 **@**
+
  Go to Twitter user @{query}
 Search Twitter for @{query}
 
 **images**
+
 Search Twitter images for {query}
 ⌘ Search my Twitter images for {query}
 
 **videos**
+
 Search Twitter videos for {query}
 ⌘ Search my Twitter videos for {query}
 
 **users**
+
 Search Twitter users for {query}
 
 **embed**
+
 Get embed code for a tweet (requires link to tweet)
 
 **dms**
+
  Go to Twitter messages
 
 

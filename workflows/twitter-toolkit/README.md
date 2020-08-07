@@ -43,19 +43,19 @@ This workflow also makes it easy to search your own tweets or find content from 
 
 Look for the  symbol below to see which keywords will open with Twitter for Mac when `platform` is set to `app`.
 
-**tweet <span style="color:#777;"></a>**
+**tweet <span style="color:#777;"></span>**
 
 Compose new Tweet (use with a space to compose your tweet)
 
-**follow <span style="color:#777;"></a>**
+**follow <span style="color:#777;"></span>**
 
 Follow {query} on Twitter
 
-**trending <span style="color:#777;"></a>**
+**trending <span style="color:#777;"></span>**
 
 See what’s happening
 
-**tweets <span style="color:#777;"></a>**
+**tweets <span style="color:#777;"></span>**
 
 Search Twitter for {query}<br>
 ⌘ Search my tweets for {query}<br>
@@ -67,7 +67,7 @@ Search my tweets for {query}<br>
 Search my tweets for #{query}<br>
 Search people I follow for {query}
 
-**me <span style="color:#777;"></a>**
+**me <span style="color:#777;"></span>**
 
 Go to my profile on Twitter
 
@@ -76,7 +76,7 @@ Go to my profile on Twitter
 Search Twitter for #{query}<br>
 ⌘ Search my tweets for #{query}
 
-**@ <span style="color:#777;"></a>**
+**@ <span style="color:#777;"></span>**
 
 Go to Twitter user @{query}<br>
 Search Twitter for @{query}
@@ -99,7 +99,7 @@ Search Twitter users for {query}
 
 Get embed code for a tweet (requires link to tweet)
 
-**dms <span style="color:#777;"></a>**
+**dms <span style="color:#777;"></span>**
 
 Go to Twitter messages
 

@@ -23,8 +23,6 @@ _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 This workflow supports interacting with Twitter on the web or in the Twitter for Mac app. Unfortunately, the desktop app doesn't support that many intents and will fall back to the web in those cases.
 
-Look for the  symbol below to see which features work with Twitter for Mac.
-
 To enable integration with the Twitter for Mac app:
 
 1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
@@ -32,34 +30,32 @@ To enable integration with the Twitter for Mac app:
 
 <a href="./assets/workflow-variables.png"><img src="./assets/workflow-variables-crop.png" alt="Alfred interface for accessing the workflow and variables configuration"></a>
 
-3. Set the `platform` variable in [the configuration](./assets/workflow-config.png) to `app` ➊.
+3. Set the `platform` variable in [the configuration](./assets/workflow-config.png) to `app` ➊ (to disable this integration, just set the 'platform' variable to `web`).
 
 <a href="./assets/workflow-config.png"><img src="./assets/workflow-config-crop.png" alt="Alfred interface showing where to change the variables"></a>
-
-To disable this integration, set the 'platform' variable to `web`.
-
 
 ## Set your username
 
 This workflow also makes it easy to search your own tweets or find content from the people you follow ("followees"). To configure this feature, you must set the `account` variable in the configuration ➋.
 
 
-
 # Keywords
 
-**tweet **
+Look for the  symbol below to see which keywords will open with Twitter for Mac when `platform` is set to `app`.
 
-Compose new Tweet
+**tweet <span style="color:#777;"></a>**
 
-**follow **
+Compose new Tweet (use with a space to compose your tweet)
+
+**follow <span style="color:#777;"></a>**
 
 Follow {query} on Twitter
 
-**trending **
+**trending <span style="color:#777;"></a>**
 
 See what’s happening
 
-**tweets **
+**tweets <span style="color:#777;"></a>**
 
 Search Twitter for {query}<br>
 ⌘ Search my tweets for {query}<br>
@@ -71,7 +67,7 @@ Search my tweets for {query}<br>
 Search my tweets for #{query}<br>
 Search people I follow for {query}
 
-**me **
+**me <span style="color:#777;"></a>**
 
 Go to my profile on Twitter
 
@@ -80,7 +76,7 @@ Go to my profile on Twitter
 Search Twitter for #{query}<br>
 ⌘ Search my tweets for #{query}
 
-**@ **
+**@ <span style="color:#777;"></a>**
 
 Go to Twitter user @{query}<br>
 Search Twitter for @{query}
@@ -103,7 +99,7 @@ Search Twitter users for {query}
 
 Get embed code for a tweet (requires link to tweet)
 
-**dms **
+**dms <span style="color:#777;"></a>**
 
 Go to Twitter messages
 

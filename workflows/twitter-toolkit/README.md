@@ -30,7 +30,7 @@ To enable integration with the Twitter for Mac app:
 
 <img src="./assets/workflow-variables-crop.png">
 
-3. Set the `platform` variable in the configuration to `app` (1).
+3. Set the `platform` variable in the configuration to `app` ➊.
 
 <img src="./assets/workflow-config-crop.png">
 
@@ -39,7 +39,7 @@ To disable this integration, set the 'platform' variable to `web`.
 
 ## Set your username
 
-This workflow also makes it easy to search your own tweets or find content from the people you follow ("followees"). To configure this feature, you must set the `account` variable in the configuration (2).
+This workflow also makes it easy to search your own tweets or find content from the people you follow ("followees"). To configure this feature, you must set the `account` variable in the configuration ➋.
 
 
 

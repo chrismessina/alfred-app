@@ -62,11 +62,6 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 # Changelog[¹](https://keepachangelog.com/)
 
-## [0.2.1] - 2020-08-08
-
-### Changed
-- Removed optional argument configuration
-
 ## [0.2.0] - 2020-08-06
 
 ### Added

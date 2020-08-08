@@ -54,9 +54,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 
 ### Superhuman Snow
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip">
-  <img src="../assets/images/superhuman-snow.png" alt="Superhuman Snow - Alfred Theme Preview">
-</a>
+[![Superhuman Snow - Alfred Theme Preview](./assets/superhuman-snow.png)](./assets/superhuman-snow.png)
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip" class="button">
@@ -66,9 +64,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 
 ### Superhuman Carbon
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip">
-  <img src="../assets/images/superhuman-carbon.png" alt="Superhuman Carbon - Alfred Theme Preview">
-</a>
+[![Superhuman Carbon - Alfred Theme Preview](./assets/superhuman-carbon.png)](./assets/superhuman-carbon.png)
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip" class="button">
@@ -85,7 +81,7 @@ Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance ›
 
 Simplify results by switching the result subtext to "Only for Alternative Actions".
 
-[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png)
+[![Alfred Appearance Options](./assets/alfred-appearance-options.png)](./assets/alfred-appearance-options.png)
 
 
 ## Inspiration
@@ -95,15 +91,23 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 
 ### Superhuman Snow
 
-[![Superhuman Snow Source](../assets/images/superhuman-snow-source.png)](../assets/images/superhuman-snow-source.png)
+[![Superhuman Snow Source](./assets/superhuman-snow-source.png)](./assets/superhuman-snow-source.png)
 
 
 ### Superhuman Carbon
 
-[![Superhuman Snow Source](../assets/images/superhuman-carbon-source.png)](../assets/images/superhuman-carbon-source.png)
+[![Superhuman Snow Source](./assets/superhuman-carbon-source.png)](./assets/superhuman-carbon-source.png)
 
-## About
 
-This theme was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+# About
 
-These themes are unaffiliated nor endorsed by Superhuman.
+These themes are unaffiliated with nor endorsed by Superhuman.
+
+
+# Contact
+
+This theme was created by [Chris Messina](https://chrismessina.me).
+
+You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+
+☕ You can [tip him with a coffee](https://ko-fi.com/chris).

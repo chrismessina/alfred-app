@@ -8,8 +8,8 @@ It makes it easy to quickly search and find your own content or the content of p
 
 <img src="./assets/twitter-toolkit-my.png" alt="Preview of Twitter Toolkit search for my tweets">
 
-
 Please note that this extension doesn't support programmatic access to Twitter. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
+
 
 # Installation
 
@@ -19,6 +19,7 @@ Please note that this extension doesn't support programmatic access to Twitter. 
 2. Double-click `twitter-toolkit.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
+
 
 # Configuration
 
@@ -107,17 +108,23 @@ Get embed code for a tweet (requires link to tweet)
 Go to Twitter messages
 
 
-# Changelog
+# Changelog[¹](https://keepachangelog.com/)
 
 ## [v0.1.0] - 2020-08-06
 - Initial Release
 
-_Inspired by [Keep a Changelog](https://keepachangelog.com/)_
 
 # About
 
-This workflow is unaffiliated nor endorsed by Twitter.
+This workflow is unaffiliated with nor endorsed by Twitter.
+
+You can [file bugs](https://github.com/chrismessina/alfred-app/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-app/issues/new) on GitHub using the label `workflow:twitter-toolkit`.
+
 
 # Contact
 
-This workflow was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+This workflow was created by [Chris Messina](https://chrismessina.me).
+
+You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+
+☕ You can [tip him with a coffee](https://ko-fi.com/chris).

@@ -40,21 +40,17 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
   </a>
 </p>
 
-
 ## Installation
 
 Download your preferred theme below, unzip the file, and then double-click the `.alfredappearance` file to install it.
 
 This theme makes use of Apple's [San Francisco font](https://developer.apple.com/fonts/). [Download it here](https://developer.apple.com/design/downloads/SF-Font-Pro.dmg).
 
-
 ## Previews
 
 ### Hey Theme (Light)
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Light).zip">
-  <img src="../assets/images/hey-light.png" alt="Hey Theme (Light) - Alfred Theme Preview">
-</a>
+[![Hey Theme (Light) - Alfred Theme Preview](./assets/hey-light.png)](./assets/hey-light.png)
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Light).zip" class="button">
@@ -64,9 +60,7 @@ This theme makes use of Apple's [San Francisco font](https://developer.apple.com
 
 ### Hey Theme (Dark)
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Dark).zip">
-  <img src="../assets/images/hey-dark.png" alt="Hey Theme (Dark) - Alfred Theme Preview">
-</a>
+[![Hey Theme (Dark) - Alfred Theme Preview](./assets/hey-dark.png)](./assets/hey-dark.png)
 
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Dark).zip" class="button">
@@ -82,8 +76,7 @@ Disable result shortcuts by unchecking: : `Alfred Preferences › Appearance ›
 
 Simplify results by switching the result subtext to "Only for Alternative Actions".
 
-[![Alfred Appearance Options](../assets/images/alfred-appearance-options.png)](../assets/images/alfred-appearance-options.png)
-
+[![Alfred Appearance Options](./assets/alfred-appearance-options.png)](./assets/alfred-appearance-options.png)
 
 ## Inspiration
 
@@ -91,15 +84,21 @@ These are the Hey interfaces from which this theme is derived.
 
 ### Hey Light Theme
 
-[![Hey Source](../assets/images/hey-light-source.png)](../assets/images/hey-light-source.png)
+[![Hey Source](./assets/hey-light-source.png)](./assets/hey-light-source.png)
 
 
 ### Hey Dark Theme
 
-[![Hey Source](../assets/images/hey-dark-source.png)](../assets/images/hey-dark-source.png)
+[![Hey Source](./assets/hey-dark-source.png)](./assets/hey-dark-source.png)
 
 ## About
 
-This theme was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+These themes are unaffiliated with nor endorsed by Basecamp.
 
-These themes are unaffiliated nor endorsed by Basecamp.
+# Contact
+
+This theme was created by [Chris Messina](https://chrismessina.me).
+
+You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+
+☕ You can [tip him with a coffee](https://ko-fi.com/chris).

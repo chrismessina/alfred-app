@@ -6,6 +6,7 @@
 
 This Alfred Workflow allows you to quickly create new cloud documents simply by invoking the 'new' keyword, a space, and then selecting from the list of available options.
 
+
 # Installation
 
 <a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
@@ -14,6 +15,7 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
+
 
 # Usage
 
@@ -54,9 +56,16 @@ Among the list of services included:
 
 You can add new services to the workflow simply by adding a new shortcut to the List Filter that includes a Title, Subtitle, and argument (i.e. the URL used to create a new document). An icon is optional, but preferable.
 
-<img src="./assets/images/workflow-ui.png">
 
-# Changelog
+[![Workflow UI](./assets/images/workflow-ui.png)](./assets/images/workflow-ui.png)
+
+
+# Changelog[¹](https://keepachangelog.com/)
+
+## [0.2.1] - 2020-08-08
+
+### Changed
+- Removed optional argument configuration
 
 ## [0.2.0] - 2020-08-06
 
@@ -72,8 +81,18 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 ## [v0.1.0] - 2020-06-05
 - Initial Release
 
-_Inspired by [Keep a Changelog](https://keepachangelog.com/)_
+
+# About
+
+This workflow is unaffiliated with nor endorsed by the [Google Domain Registrar](https://www.registry.google/).
+
+You can [file bugs](https://github.com/chrismessina/alfred-app/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-app/issues/new) on GitHub using the label `workflow:new-cloud-documents`.
+
 
 # Contact
 
-This workflow was created by [Chris Messina](https://chrismessina.me). You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+This workflow was created by [Chris Messina](https://chrismessina.me).
+
+You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
+
+☕ You can [tip him with a coffee](https://ko-fi.com/chris).

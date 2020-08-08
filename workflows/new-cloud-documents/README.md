@@ -9,7 +9,7 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128" align="center"></a>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip"><img src="../../assets/icon-zip.png" alt="" width="128" height="128" align="center" alt="Zip File Icon"></a>
 
 1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.zip).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
@@ -21,7 +21,7 @@ _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 Activate Alfred and type `new`. You can then select from a list of existing .new cloud documents (with a few bonuses thrown in):
 
-<img src="./assets/images/preview-animated.gif">
+![The list of new cloud documents that you can create](./assets/preview-animated.gif)
 
 Among the list of services included:
 
@@ -57,7 +57,7 @@ Among the list of services included:
 You can add new services to the workflow simply by adding a new shortcut to the List Filter that includes a Title, Subtitle, and argument (i.e. the URL used to create a new document). An icon is optional, but preferable.
 
 
-[![Workflow UI](./assets/images/workflow-ui.png)](./assets/images/workflow-ui.png)
+[![Workflow UI](./assets/workflow-ui.png)](./assets/workflow-ui.png)
 
 
 # Changelog[¹](https://keepachangelog.com/)

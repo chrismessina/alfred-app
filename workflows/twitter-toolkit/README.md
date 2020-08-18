@@ -55,7 +55,7 @@ Compose new Tweet (use with a space to compose your tweet)
 
 Follow {query} on Twitter
 
-**trending <span style="color:#777;"></span>**
+**explore or trending <span style="color:#777;"></span>**
 
 See what’s happening
 
@@ -70,10 +70,15 @@ Search tweets from people I follow for {query}
 Search my tweets for {query}<br>
 Search my tweets for #{query}<br>
 Search people I follow for {query}
+View my Twitter Bookmarks
+View my Twitter Lists
+View my Twitter Moments
+View my Twitter Notifications
+View my Twitter Topics
 
 **me <span style="color:#777;"></span>**
 
-Go to my profile on Twitter
+View my profile on Twitter
 
 **#**
 
@@ -99,16 +104,42 @@ Search Twitter videos for {query}<br>
 
 Search Twitter users for {query}
 
-**embed**
+**dm <span style="color:#777;"></span>**
 
-Get embed code for a tweet (requires link to tweet)
+Compose a Twitter message
 
 **dms <span style="color:#777;"></span>**
 
 Go to Twitter messages
 
+**embed**
+
+Get embed code for a tweet (requires link to tweet)
+
+**analytics**
+
+Go to Twitter Analytics
+
+**help**
+
+Go to Twitter Help Center
+
+**media studio**
+
+Go to Twitter Media Studio
+
+**notifs**
+
+View my Twitter Notifications
+
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.2.0] - 2020-08-17
+### Added
+- All new icons!
+- Support for new keywords: `analytics`, `explore`, `help`, `media`, `notifs`
+- New additions to the "my" collection: Bookmarks, Lists, Moments, Notifications
 
 ## [v0.1.0] - 2020-08-06
 - Initial Release

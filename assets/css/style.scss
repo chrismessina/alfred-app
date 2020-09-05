@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+  font-family:"SF Pro Text","SF Pro Icons","Noto Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:106.25%;
+}
+body{
+	font-size:17px;
+	line-height:1.47059;
+	font-weight:400;
+	letter-spacing:-.022em;
+	font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	background-color:#fff;
+	color:#1d1d1f;
+	font-style:normal
+}
+.wrapper{
+	width:1080px;
+	margin:0 auto
+}

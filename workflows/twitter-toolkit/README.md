@@ -2,20 +2,20 @@
 
 <img src="../../assets/icon-twitter.png" alt="Twitter logo" width="128" height="128">
 
-The Twitter Toolkit for Alfred is a set of keywords that let you quickly interact with Twitter's website and [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4).
+The Twitter Toolkit for Alfred lets you quickly interact with Twitter through its website, [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4), and [Tweetbot](https://tapbots.com/tweetbot/mac/).
 
-It makes it easy to quickly search and find your own content or the content of people you follow (shown using my <a href="../../themes/hey">Hey Theme</a>):
+It makes it easy to quickly search and find your own content or the content of people you follow (shown using the <a href="../../themes/hey">Hey Theme</a>):
 
 <img src="./assets/twitter-toolkit-my.png" alt="Preview of Twitter Toolkit search for my tweets">
 
-Please note that this extension doesn't support programmatic access to Twitter. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
+This extension doesn't support programmatic access to Twitter, like tweeting directly or sending DMs. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.zip"><img src="../../assets/icon-zip.png" alt="Zip File Icon" width="128" height="128"></a>
+<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.alfredworkflow"><img src="../../assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
 
-1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.zip).
+1. Download [twitter-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-app/raw/master/workflows/twitter-toolkit/twitter-toolkit.alfredworkflow).
 2. Double-click `twitter-toolkit.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
@@ -23,117 +23,125 @@ _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 # Configuration
 
-## Integration with Twitter for Mac
+Once the workflow is installed, launch **Alfred Preferences**, choose **Workflows** and then select **Twitter Toolkit**.
 
-This workflow supports interacting with Twitter on the web or in the Twitter for Mac app. Unfortunately, the desktop app doesn't support that many intents and will fall back to the web in those cases.
+<span style="color:red;">➊</span> Access the **Workflow Environment Variables** in the top right of the window :
 
-To enable integration with the Twitter for Mac app:
+<img src="./assets/workflow-config.png" alt="How to access the Alfred Workflow Environment Variables">
 
-1. After you've installed the workflow, go to Workflows and select Twitter Toolkit
-2. Access the workflow and variables configuration [here](./assets/workflow-variables.png):
-
-<a href="./assets/workflow-variables.png"><img src="./assets/workflow-variables-crop.png" alt="Alfred interface for accessing the workflow and variables configuration"></a>
-
-3. Set the `platform` variable in [the configuration](./assets/workflow-config.png) to `app` ➊ (to disable this integration, just set the 'platform' variable to `web`).
-
-<a href="./assets/workflow-config.png"><img src="./assets/workflow-config-crop.png" alt="Alfred interface showing where to change the variables"></a>
 
 ## Set your username
 
-This workflow also makes it easy to search your own tweets or find content from the people you follow ("followees"). To configure this feature, you must set the `account` variable in the configuration ➋.
+This workflow makes it easy to search your own tweets or find content from the people you follow ("followees").
+
+<span style="color:red;">➋</span> To configure this feature, you must set the `account` variable in the configuration .
+
+
+## Platform selection
+
+This workflow supports interacting with Twitter on the web, Twitter for Mac, or Tweetbot. If a keyword is not supported by a certain platform, it will fallback to the web.
+
+<span style="color:red;">➌</span> Set the `platform` variable to <img src="../../assets/icon-twitter-16.png" alt="Twitter Icon" width="16" height="16"> `web`, <img src="../../assets/icon-appstore-16.png" alt="App Store Icon" width="16" height="16"> `app` or <img src="../../assets/icon-tweetbot-16.png" alt="Tweetbot Icon" width="16" height="16">`tweetbot` .
 
 
 # Keywords
 
-Look for the  symbol below to see which keywords will open with Twitter for Mac when `platform` is set to `app`.
+The following keywords are used to interact with the Twitter Toolkit.
 
-**tweet <span style="color:#777;"></span>**
+Modifier keys change the behavior as described, and subtext will appear in Alfred to help guide your interaction.
 
-Compose new Tweet (use with a space to compose your tweet)
+⌥ is typically used to scope content to your own content.
 
-**follow <span style="color:#777;"></span>**
+⌘ is typically used to scope content from people you follow.
 
-Follow {query} on Twitter
+⇧ is used to toggle the nearby scope.
 
-**explore or trending <span style="color:#777;"></span>**
-
-See what’s happening
-
-**tweets <span style="color:#777;"></span>**
-
-Search Twitter for {query}<br>
-⌘ Search my tweets for {query}<br>
-Search tweets from people I follow for {query}
-
-**my**
-
-Search my tweets for {query}<br>
-Search my tweets for #{query}<br>
-Search people I follow for {query}
-View my Twitter Bookmarks
-View my Twitter Lists
-View my Twitter Moments
-View my Twitter Notifications
-View my Twitter Topics
-
-**me <span style="color:#777;"></span>**
-
-View my profile on Twitter
-
-**#**
-
-Search Twitter for #{query}<br>
-⌘ Search my tweets for #{query}
-
-**@ <span style="color:#777;"></span>**
-
-Go to Twitter user @{query}<br>
-Search Twitter for @{query}
-
-**images**
-
-Search Twitter images for {query}<br>
-⌘ Search my Twitter images for {query}
-
-**videos**
-
-Search Twitter videos for {query}<br>
-⌘ Search my Twitter videos for {query}
-
-**users**
-
-Search Twitter users for {query}
-
-**dm <span style="color:#777;"></span>**
-
-Compose a Twitter message
-
-**dms <span style="color:#777;"></span>**
-
-Go to Twitter messages
-
-**embed**
-
-Get embed code for a tweet (requires link to tweet)
-
-**analytics**
-
-Go to Twitter Analytics
-
-**help**
-
-Go to Twitter Help Center
-
-**media studio**
-
-Go to Twitter Media Studio
-
-**notifs**
-
-View my Twitter Notifications
+|   Keyword    	|   Modifier  	|   Description                                             	|   <img src="../../assets/icon-twitter-32.png" alt="Twitter Icon" width="32" height="32">  	|   <img src="../../assets/icon-appstore-32.png" alt="App Store Icon" width="32" height="32">  	|   <img src="../../assets/icon-tweetbot-32.png" alt="Tweetbot Icon" width="32" height="32">  	|
+|--------------	|:-----------:	|-----------------------------------------------------------	|:------:	|:------:	|:-----------:	|
+|  `!        `  	|             	|   View my Twitter Notifications                           	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `@        `  	|             	|   Go to Twitter user @{query}                             	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `@        `  	|       ⌥     	|   Search Twitter users for @{query}                       	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `#        `  	|             	|   Search Twitter for #{query}                             	|    ☑️   	|    ☑️   	|             	|
+|  `#        `  	|             	|   Go to #{query}                                          	|    ☑️   	|        	|             	|
+|  `#        `  	|       ⌘     	|   Search my tweets for #{query}                           	|    ☑️   	|        	|             	|
+|  `analytics`  	|             	|   Go to Twitter Analytics                                 	|    ☑️   	|        	|             	|
+|  `bookmarks`  	|             	|   Go to Twitter Bookmarks                                 	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `dm       `  	|             	|   Compose a Twitter message                               	|    ☑️   	|    ☑️   	|             	|
+|  `dms      `  	|             	|   Go to Twitter messages                                  	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `embed    `  	|             	|   Embed tweet                                             	|    ☑️   	|        	|             	|
+|  `explore  `  	|             	|   See what’s happening                                    	|    ☑️   	|    ☑️   	|             	|
+|  `follow   `  	|             	|   Follow @{query} on Twitter                              	|    ☑️   	|        	|       ☑️     	|
+|  `help     `  	|             	|   Go to Twitter Help Center                               	|    ☑️   	|        	|             	|
+|  `home     `  	|             	|   Go to Twitter Home                                      	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `images   `  	|             	|   Search Twitter images for {query}                       	|    ☑️   	|    ☑️   	|             	|
+|  `images   `  	|       ⌥     	|   Search my Twitter images for {query}                    	|    ☑️   	|    ☑️   	|             	|
+|  `images   `  	|       ⌘     	|   Search Twitter images from people I follow for {query}  	|    ☑️   	|    ☑️   	|             	|
+|  `lists    `  	|             	|   View Suggested Twitter Lists                            	|    ☑️   	|    ☑️   	|             	|
+|  `lists    `  	|       ⌥     	|   View my Twitter Lists                                   	|    ☑️   	|        	|       ☑️     	|
+|  `lists    `  	|       ⌘     	|   View Twitter Lists You’re On                            	|    ☑️   	|        	|             	|
+|  `me       `  	|             	|   View my profile on Twitter                              	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `me       `  	|       ⌥     	|   Copy my Twitter profile link                            	|    ☑️   	|        	|             	|
+|  `media    `  	|             	|   Go to Twitter Media Studio                              	|    ☑️   	|        	|             	|
+|  `my       `  	|             	|   Search people I follow for {query}                      	|    ☑️   	|    ☑️   	|             	|
+|  `my       `  	|             	|   Search my top tweets for {query}                        	|    ☑️   	|    ☑️   	|             	|
+|  `my       `  	|             	|   Search my recent tweets for {query}                     	|    ☑️   	|        	|             	|
+|  `my       `  	|             	|   Search my tweets for #{query}                           	|    ☑️   	|    ☑️   	|             	|
+|  `my       `  	|             	|   Search my Twitter videos for {query}                    	|    ☑️   	|    ☑️   	|             	|
+|  `my       `  	|             	|   View my Twitter Likes                                   	|    ☑️   	|        	|       ☑️     	|
+|  `my       `  	|             	|   View my Twitter Media                                   	|    ☑️   	|        	|             	|
+|  `my       `  	|             	|   View my Twitter Moments                                 	|    ☑️   	|        	|             	|
+|  `my       `  	|             	|   View my Twitter Lists                                   	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `my       `  	|             	|   View my Twitter Bookmarks                               	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `my       `  	|             	|   View my Twitter Notifications                           	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `nearby   `  	|             	|   Search nearby Twitter photos for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `nearby   `  	|             	|   Search nearby Twitter videos for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `nearby   `  	|             	|   Search nearby Twitter people for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `notifs   `  	|             	|   View my Twitter Notifications                           	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `photos   `  	|             	|   Search Twitter photos for {query}                       	|    ☑️   	|        	|             	|
+|  `photos   `  	|       ⌘     	|   Search Twitter photos from people I follow for {query}  	|    ☑️   	|        	|             	|
+|  `photos   `  	|       ⇧     	|   Search nearby Twitter photos for {query}                	|    ☑️   	|        	|             	|
+|  `top      `  	|             	|   Search top tweets for {query}                           	|    ☑️   	|        	|             	|
+|  `topics   `  	|             	|   View my Twitter Topics                                  	|    ☑️   	|    ☑️   	|             	|
+|  `trending `  	|             	|   See what’s happening                                    	|    ☑️   	|    ☑️   	|             	|
+|  `trending `  	|       ⌥     	|   See what’s happening for you                            	|    ☑️   	|        	|             	|
+|  `tweet    `  	|             	|   Compose new Tweet                                       	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `tweets   `  	|             	|   Search Twitter for {query}                              	|    ☑️   	|    ☑️   	|       ☑️     	|
+|  `tweets   `  	|             	|   Search top tweets from people I follow for {query}      	|    ☑️   	|    ☑️   	|             	|
+|  `tweets   `  	|             	|   Search recent tweets from people I follow for {query}   	|    ☑️   	|    ☑️   	|             	|
+|  `tweets   `  	|       ⌥     	|   Search my recent tweets for {query}                     	|    ☑️   	|        	|             	|
+|  `unfollow `  	|             	|   Unfollow @{query} on Twitter                            	|        	|        	|       ☑️     	|
+|  `users    `  	|             	|   Search Twitter users for {query}                        	|    ☑️   	|    ☑️   	|             	|
+|  `users    `  	|       ⌘     	|   Search Twitter users I follow for {query}               	|    ☑️   	|    ☑️   	|             	|
+|  `users    `  	|       ⇧     	|   Search nearby Twitter people for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `videos   `  	|             	|   Search Twitter videos for {query}                       	|    ☑️   	|    ☑️   	|             	|
+|  `videos   `  	|             	|   Search Twitter videos from people I follow for {query}  	|    ☑️   	|    ☑️   	|             	|
+|  `videos   `  	|       ⇧     	|   Search nearby Twitter videos for {query}                	|    ☑️   	|    ☑️   	|             	|
+|  `videos   `  	|       ⌘     	|   Search my Twitter videos for {query}                    	|    ☑️   	|    ☑️   	|             	|
 
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.0] - 2020-09-04
+### Added
+- Support for [Tweetbot URL Schemes](https://tapbots.net/tweetbot4/support/url-schemes/) by setting `tweetbot` as `platform` variable (thanks [@bemawr](https://www.alfredforum.com/profile/16163-bemawr/ )!) (Closes [#3](https://github.com/chrismessina/alfred-app/issues/3))
+- Support for `nearby` searches:
+  - tweets
+  - photos
+  - videos
+  - users
+- keywords to go to:
+  - hashtag page
+  - topics
+  - Alternative keyword `!` for notifs
+- Descriptive notes in Workflow
+- OneUpdater (Closes [#6](https://github.com/chrismessina/alfred-app/issues/6))
+
+### Changed
+- Added `service` and `domain` variables to make it easier to develop other Toolkits
+- Drastically increased support for Twitter for Mac thanks to new routes included in 8.34 (thanks [@nolanobrien](https://twitter.com/@nolanobrien)!) (Closes [#4](https://github.com/chrismessina/alfred-app/issues/4))
+
+### Removed
+- followees keyword
 
 ## [v0.2.0] - 2020-08-17
 ### Added

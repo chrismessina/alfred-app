@@ -27,7 +27,7 @@ $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -65,7 +65,7 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $background-color: #fff !default;
-$border-color: #494949;
+$border-color: #fafafa;
 $link-color: #267CB9;
 
 /* ==========================================================================
@@ -267,6 +267,13 @@ body {
 section#main {
 	width: 740px;
 }
+#main h1, .heading {
+	font-size: $type-size-2;
+	line-height: 1.25;
+	font-weight: 600;
+	letter-spacing: .004em;
+	font-family: $header-font-family;
+}
 a {
   font-weight:bold;
 }
@@ -288,10 +295,10 @@ address, caption, code, figcaption, pre, th {
 
 table {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   border-collapse: collapse;
   overflow-x: auto;
 

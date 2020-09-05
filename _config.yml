@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes@4.20.1
+
+plugins:
+  jekyll-include-cache

@@ -2,10 +2,261 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+$doc-font-size: 16 !default;
+
+/* paragraph indention */
+$paragraph-indent: false !default; // true, false (default)
+$indent-var: 1.3em !default;
+
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "SF Mono", Meno, Menlo, Consolas, Monaco,"Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
+
+/* type scale */
+$type-size-1: 2.441em !default; // ~39.056px
+$type-size-2: 1.953em !default; // ~31.248px
+$type-size-3: 1.563em !default; // ~25.008px
+$type-size-4: 1.25em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.75em !default; // ~12px
+$type-size-7: 0.6875em !default; // ~11px
+$type-size-8: 0.625em !default; // ~10px
+
+/* headline scale */
+$h-size-1: 1.563em !default; // ~25.008px
+$h-size-2: 1.25em !default; // ~20px
+$h-size-3: 1.125em !default; // ~18px
+$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
+
+/* ==========================================================================
+   STYLE RESETS
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 16px;
+
+  @include breakpoint($medium) {
+    font-size: 18px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 20px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 22px;
+  }
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Remove margin */
+
+body { margin: 0; }
+
+/* Selected elements */
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
+}
+
+/* Display HTML5 elements in IE6-9 and FF3 */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* Display block in IE6-9 and FF3 */
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* Prevents modern browsers from displaying 'audio' without controls */
+
+audio:not([controls]) {
+  display: none;
+}
+
+a {
+  color: $link-color;
+}
+
+/* Apply focus state */
+
+a:focus {
+  @extend %tab-focus;
+}
+
+/* Remove outline from links */
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* Prevent sub and sup affecting line-height in all browsers */
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* img border in anchor's and image quality */
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%; /* part 1: Set a maximum relative to the parent*/
+  width: auto\9; /* IE7-8 need help adjusting responsive images*/
+  height: auto; /* part 2: Scale the height according to the width, otherwise you get stretching*/
+
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Prevent max-width from affecting Google Maps */
+
+#map_canvas img,
+.google-maps img {
+  max-width: none;
+}
+
+/* Consistent form font size in all browsers, margin changes, misc */
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible; /* inner spacing ie IE6/7*/
+  line-height: normal; /* FF3/4 have !important on line-height in UA stylesheet*/
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* inner padding and border oddities in FF3/4*/
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"], // avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* corrects inability to style clickable `input` types in iOS*/
+    cursor: pointer; /* improves usability and consistency of cursor style between image-type `input` and others*/
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer; /* improves usability and consistency of cursor style between image-type `input` and others*/
+}
+
+input[type="search"] { /* Appearance in Safari/Chrome*/
+  box-sizing: border-box;
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; /* inner-padding issues in Chrome OSX, Safari 5*/
+}
+
+textarea {
+  overflow: auto; /* remove vertical scrollbar in IE6-9*/
+  vertical-align: top; /* readability and alignment cross-browser*/
+}
+/* ==========================================================================
+   END: STYLE RESETS
+   ========================================================================== */
+
+
+
 html {
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
-	font-family:"SF Pro Text","SF Pro Icons","Noto Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: $sans-serif;
 	font-size:106.25%
 }
 body {
@@ -15,13 +266,67 @@ body {
 	letter-spacing:-.022em;
 	background-color:#fff;
 	color:#1d1d1f;
-	font-family:"SF Pro Text","SF Pro Icons","Noto Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: $sans-serif;
 	font-style:normal
 }
 .wrapper {
 	width:1080px;
 	margin:0 auto
 }
+section#main {
+	width: 740px;
+}
 a {
   font-weight:bold
+}
+code,pre {
+	color:#333
+	font-family: $monospace;
+	font-weight: inherit;
+	letter-spacing: 0;
+}
+address, caption, code, figcaption, pre, th {
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  border-collapse: collapse;
+  overflow-x: auto;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+  background-color: $border-color;
+  border-bottom: 2px solid mix(#000, $border-color, 25%);
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid mix(#000, $border-color, 25%);
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
 }

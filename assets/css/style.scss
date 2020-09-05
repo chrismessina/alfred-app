@@ -254,7 +254,7 @@ body {
 	font-size:17px;
 	line-height:1.47059;
 	font-weight:400;
-	letter-spacing:-.022em;
+/*	letter-spacing:-.022em;*/
 	background-color:#fff;
 	color:#1d1d1f;
 	font-family: $sans-serif;
@@ -302,10 +302,10 @@ code,pre {
 	color:#333;
 	font-family: $monospace;
 	font-weight: inherit;
-	letter-spacing: 0;
+	letter-spacing: -.022em;
 }
 address, caption, code, figcaption, pre, th {
-	font-size: 1em;
+	font-size: $type-size-6;
 	font-weight: 400;
 	font-style: normal;
 }

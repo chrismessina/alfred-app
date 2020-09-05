@@ -36,9 +36,9 @@ $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
 $type-size-5: 1em !default; // ~16px
-$type-size-6: 0.75em !default; // ~12px
-$type-size-7: 0.6875em !default; // ~11px
-$type-size-8: 0.625em !default; // ~10px
+$type-size-6: 0.85em !default; // ~12px
+$type-size-7: 0.7em !default; // ~11px
+$type-size-8: 0.6875em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
@@ -298,7 +298,7 @@ table {
   margin-bottom: 2em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
   border-collapse: collapse;
   overflow-x: auto;
 

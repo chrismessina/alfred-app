@@ -2,24 +2,26 @@
 ---
 
 @import "{{ site.theme }}";
-html{
+html {
 	-ms-text-size-adjust:100%;
-	-webkit-text-size-adjust:100%
-	font-size:106.25%;
+	-webkit-text-size-adjust:100%;
+	font-family:"SF Pro Text","SF Pro Icons","Noto Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:106.25%
 }
-body{
+body {
 	font-size:17px;
 	line-height:1.47059;
 	font-weight:400;
 	letter-spacing:-.022em;
 	background-color:#fff;
 	color:#1d1d1f;
+	font-family:"SF Pro Text","SF Pro Icons","Noto Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-style:normal
 }
-.wrapper{
+.wrapper {
 	width:1080px;
 	margin:0 auto
 }
-a{
+a {
   font-weight:bold
 }

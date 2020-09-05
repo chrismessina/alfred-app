@@ -274,6 +274,24 @@ section#main {
 	letter-spacing: .004em;
 	font-family: $header-font-family;
 }
+h1#changelog {
+  font-size: $type-size-6;
+  border-top: .25em solid #efefef;
+  padding-top: .25em:
+  margin-top: 2em;
+}
+footer {
+  background-color: $border-color;
+  padding: 1em;
+  color: #777;
+}
+footer a, footer a:hover, footer a:visited {
+  color: #555;
+  font-weight: normal;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 a {
   font-weight:bold;
 }

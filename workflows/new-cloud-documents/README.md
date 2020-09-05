@@ -82,12 +82,3 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 This workflow is unaffiliated with nor endorsed by the [Google Domain Registrar](https://www.registry.google/).
 
 You can [file bugs](https://github.com/chrismessina/alfred-app/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-app/issues/new) on GitHub using the label `workflow:new-cloud-documents`.
-
-
-# Contact
-
-This workflow was created by [Chris Messina](https://chrismessina.me).
-
-You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
-
-☕ You can [tip him with a coffee](https://ko-fi.com/chris).

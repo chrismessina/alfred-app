@@ -94,11 +94,3 @@ These are the Hey interfaces from which this theme is derived.
 ## About
 
 These themes are unaffiliated with nor endorsed by Basecamp.
-
-# Contact
-
-This theme was created by [Chris Messina](https://chrismessina.me).
-
-You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
-
-☕ You can [tip him with a coffee](https://ko-fi.com/chris).

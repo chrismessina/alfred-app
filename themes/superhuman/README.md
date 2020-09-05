@@ -102,12 +102,3 @@ version of the [Operator Mono Book font](https://www.typography.com/fonts/operat
 # About
 
 These themes are unaffiliated with nor endorsed by Superhuman.
-
-
-# Contact
-
-This theme was created by [Chris Messina](https://chrismessina.me).
-
-You can contact him via [Twitter](https://twitter.com/@chrismessina) or [his website](https://chrismessina.me/contact).
-
-☕ You can [tip him with a coffee](https://ko-fi.com/chris).

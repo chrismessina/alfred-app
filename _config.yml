@@ -1,8 +1,6 @@
+title: Chris Messina's Alfred Themes & Workflows
+description: A collection of Themes and Workflows for Alfred.
+logo: /assets/icon-alfred.png
+show_downloads: true
+google_analytics: UA-18603640-2
 theme: jekyll-theme-minimal
-
-title: [Chris Messina's Alfred Themes & Workflows]
-description: [A collection of Themes and Workflows for Alfred.]
-
-logo: [./assets/icon-alfred.png]
-show_downloads: ["true"]
-google_analytics: [UA-18603640-2]

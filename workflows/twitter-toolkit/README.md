@@ -6,7 +6,7 @@ The Twitter Toolkit for Alfred lets you quickly interact with Twitter through it
 
 It makes it easy to quickly search and find your own content or the content of people you follow (shown using the <a href="../../themes/hey">Hey Theme</a>):
 
-<img src="./assets/twitter-toolkit-my.png" alt="Preview of Twitter Toolkit search for my tweets">
+<img src="./assets/preview.gif" alt="Preview of Twitter Toolkit">
 
 This extension doesn't support programmatic access to Twitter, like tweeting directly or sending DMs. For that kind of integration, try [AlfredTweet](http://dferg.us/alfredtweet-2/) by David Ferguson.
 
@@ -119,7 +119,18 @@ Modifier keys change the behavior as described, and subtext will appear in Alfre
 |  `videos   `  	|       ⌘     	|   Search my Twitter videos for {query}                    	|    ☑️   	|    ☑️   	|             	|
 
 
+#Tips
+
+One of the most convenient features of this workflow is the ability to quickly search for your own tweets and tweeted media. By using the `my` keyword followed by search terms, you can quickly continue previous threads or link to things you said before.
+
+<img src="./assets/twitter-toolkit-my.png" alt="Twitter Toolkit's support for searching for my tweets">
+
 # Changelog[¹](https://keepachangelog.com/)
+
+## [v0.3.1] - 2020-09-06
+### Fixed
+- Replaced "(from:{var:account})" with "from:{var:account}" (no parens) from app searches.
+- Fixed on errant search that targeted videos rather than all tweets.
 
 ## [v0.3.0] - 2020-09-04
 ### Added

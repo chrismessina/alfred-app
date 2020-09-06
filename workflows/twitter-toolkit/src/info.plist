@@ -2292,7 +2292,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}%20(from%3A{var:account})&amp;type=photos</string>
+				<string>twitter://search?query={query}%20from%3A{var:account}&amp;type=photos</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -2311,7 +2311,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}%20(from%3A{var:account})&amp;type=videos</string>
+				<string>twitter://search?query={query}%20from%3A{var:account}&amp;type=videos</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -4276,7 +4276,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}&amp;type=top&amp;follows=true</string>
+				<string>twitter://search?query={query}%20from%3A{var:account}&amp;type=top</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -4881,7 +4881,7 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}%20(from%3A{var:account})&amp;type=videos&amp;nearby=true</string>
+				<string>twitter://search?query=%23{query}%20from%3A{var:account}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -5103,7 +5103,7 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}&amp;type=recent&amp;follows=true</string>
+				<string>twitter://search?query={query}%20from%3A{var:account}&amp;type=recent&amp;follows=true</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -6166,6 +6166,8 @@ https://superpeer.com/chrismessina</string>
 		</dict>
 		<key>4B2FD265-4081-4656-8256-33A4C596EAD5</key>
 		<dict>
+			<key>note</key>
+			<string>Bookmarks</string>
 			<key>xpos</key>
 			<integer>645</integer>
 			<key>ypos</key>
@@ -7191,7 +7193,7 @@ https://superpeer.com/chrismessina</string>
 		<string>account</string>
 	</array>
 	<key>version</key>
-	<string>0.3.0</string>
+	<string>0.3.1</string>
 	<key>webaddress</key>
 	<string>https://chrismessina.me</string>
 </dict>

@@ -187,7 +187,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>35217452-A19E-4AA6-8ABF-BC2A631B16A1</string>
+				<string>BCEBCC0B-BC5E-48A8-82FC-E31804E3C816</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1240,6 +1240,31 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F1DCD6E1-F72B-447B-8453-6ECBFF194500</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BCEBCC0B-BC5E-48A8-82FC-E31804E3C816</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>109D7FC4-115E-4E82-9864-6A439C180E34</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F5D9BF4-CD4D-4188-AAD1-0B988FA02543</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3614,27 +3639,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>users</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search {var:service} users for {query}</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2414E79F-C65C-47FC-8485-1249E1EE1CF4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -3713,36 +3717,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:platform}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>app</string>
-						<key>outputlabel</key>
-						<string>app</string>
-						<key>uid</key>
-						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>web</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>C870DD93-3265-45C7-8236-17DD88197BEF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -3767,14 +3741,14 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}&amp;type=users&amp;follows=true</string>
+				<string>twitter://search?query={query}&amp;type=users</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>070C600D-A915-40C4-8DF4-92C0B5E8CD7E</string>
+			<string>109D7FC4-115E-4E82-9864-6A439C180E34</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3891,6 +3865,36 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:platform}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>app</string>
+						<key>outputlabel</key>
+						<string>app</string>
+						<key>uid</key>
+						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>web</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>BCEBCC0B-BC5E-48A8-82FC-E31804E3C816</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -3904,6 +3908,27 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>0ACEA13C-5553-471C-B4DE-851F020C6896</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>users</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search {var:service} users for {query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2414E79F-C65C-47FC-8485-1249E1EE1CF4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3955,6 +3980,25 @@
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>8D4DF030-6C2C-4887-A84E-24C37067BDD6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:domain}/search?q={query}&amp;f=user</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6F5D9BF4-CD4D-4188-AAD1-0B988FA02543</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4085,19 +4129,30 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:domain}/search?q={query}&amp;f=user&amp;pf=on</string>
-				<key>utf8</key>
-				<true/>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:platform}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>app</string>
+						<key>outputlabel</key>
+						<string>app</string>
+						<key>uid</key>
+						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>web</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>93B9F7C2-0B37-4E15-85F2-1758965D8DD8</string>
+			<string>C870DD93-3265-45C7-8236-17DD88197BEF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4117,6 +4172,25 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>69B174BD-9D5E-4782-96CA-4B0CCB82B8F7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>twitter://search?query={query}&amp;type=users&amp;follows=true</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>070C600D-A915-40C4-8DF4-92C0B5E8CD7E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4187,76 +4261,6 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query={query}&amp;type=videos&amp;nearby=true</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7B6CFE67-C8A0-45E0-A4D9-6D1B48AB2526</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>nearby</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search nearby {var:service} people for {query}</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BB539554-549F-4A6E-8714-446F77377F0D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:platform}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>app</string>
-						<key>outputlabel</key>
-						<string>app</string>
-						<key>uid</key>
-						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>web</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>F1DCD6E1-F72B-447B-8453-6ECBFF194500</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
 				<string>{var:domain}/explore/tabs/for-you</string>
 				<key>utf8</key>
 				<true/>
@@ -4284,6 +4288,25 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>E0949327-CC21-4BCA-B652-597AA8019263</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:domain}/search?q={query}&amp;f=user&amp;pf=on</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>93B9F7C2-0B37-4E15-85F2-1758965D8DD8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4377,25 +4400,6 @@ fi</string>
 			<string>5798B821-D6EF-45BF-A6EA-0D1915AA5DF9</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:domain}/search?q={query}&amp;f=user&amp;pf=on&amp;lf=on</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>8B3C2A70-9D94-4AF8-B065-51D92C30C8D3</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4510,6 +4514,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>twitter://search?query={query}&amp;type=videos&amp;nearby=true</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7B6CFE67-C8A0-45E0-A4D9-6D1B48AB2526</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -4543,37 +4566,48 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>#</string>
+				<string>nearby</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Go to #{query}</string>
+				<string>Search nearby {var:service} people for {query}</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>8AC4398B-1680-4E0B-B1A8-361838FF8706</string>
+			<string>BB539554-549F-4A6E-8714-446F77377F0D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:domain}{/hashtag/{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:platform}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>app</string>
+						<key>outputlabel</key>
+						<string>app</string>
+						<key>uid</key>
+						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>web</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>CD8008ED-C831-4AD5-946C-9547E60F1681</string>
+			<string>F1DCD6E1-F72B-447B-8453-6ECBFF194500</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4623,65 +4657,14 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>twitter://search?query=%23{query}</string>
+				<string>{var:domain}/search?q={query}&amp;f=user&amp;pf=on&amp;lf=on</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>D7613071-B5B8-4368-AE80-F8F6B5EFC418</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>#</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search {var:service} for #{query}</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C81D1166-A2B0-4811-9C88-050EE7A6F7C2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:platform}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>app</string>
-						<key>outputlabel</key>
-						<string>app</string>
-						<key>uid</key>
-						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>web</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>05759A78-7E3D-4995-88F1-0EEBF6BC2E05</string>
+			<string>8B3C2A70-9D94-4AF8-B065-51D92C30C8D3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4798,19 +4781,40 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>#</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Go to #{query}</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8AC4398B-1680-4E0B-B1A8-361838FF8706</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>{var:domain}/search?q=(%23{query})&amp;src=typed_query&amp;f=live</string>
+				<string>{var:domain}{/hashtag/{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F89E77BE-3B7B-4CEA-AEE4-1CDF9EF7E752</string>
+			<string>CD8008ED-C831-4AD5-946C-9547E60F1681</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4830,6 +4834,25 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>480EF0B6-AA37-4471-8C71-E90AD84EE60B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>twitter://search?query=%23{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D7613071-B5B8-4368-AE80-F8F6B5EFC418</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4870,46 +4893,6 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>520FC4A1-5367-4DAD-855F-4E519342A64E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>twitter://search?query=%23{query}%20from%3A{var:account}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>880082ED-0EA7-4D28-9D4B-56AF65F6C998</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>my</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search my tweets for #{query}</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BD7FFB53-969D-49AB-8985-9869CF056962</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4981,6 +4964,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>#</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search {var:service} for #{query}</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C81D1166-A2B0-4811-9C88-050EE7A6F7C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -5034,7 +5038,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>31AAAA6B-CEBB-4F1D-952A-A67EF6F8595A</string>
+			<string>05759A78-7E3D-4995-88F1-0EEBF6BC2E05</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5065,14 +5069,14 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>{var:domain}/search?q=(%23{query})%20(from%3A{var:account})&amp;src=typed_query</string>
+				<string>{var:domain}/search?q=(%23{query})&amp;src=typed_query&amp;f=live</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>FD13DC7E-2979-4EF4-8FD4-4722BDA8D683</string>
+			<string>F89E77BE-3B7B-4CEA-AEE4-1CDF9EF7E752</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5092,6 +5096,46 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>F7D361B4-BDB1-477F-9452-F6BA2B23534E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>twitter://search?query=%23{query}%20from%3A{var:account}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>880082ED-0EA7-4D28-9D4B-56AF65F6C998</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>my</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search my tweets for #{query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BD7FFB53-969D-49AB-8985-9869CF056962</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5130,6 +5174,36 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>CF13E0D0-1C44-4DFB-81CA-1C1070912973</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:platform}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>app</string>
+						<key>outputlabel</key>
+						<string>app</string>
+						<key>uid</key>
+						<string>9BC76F0C-66AD-4EF8-B0BD-9A62D510AB40</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>web</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>31AAAA6B-CEBB-4F1D-952A-A67EF6F8595A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5181,6 +5255,25 @@ fi</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>8B64EBE1-B237-49E7-9EAF-9B67A9476659</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:domain}/search?q=(%23{query})%20(from%3A{var:account})&amp;src=typed_query</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FD13DC7E-2979-4EF4-8FD4-4722BDA8D683</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5732,7 +5825,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>225</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>2365</integer>
 		</dict>
 		<key>060EC63D-92F3-4F59-85EB-9D91E3792558</key>
 		<dict>
@@ -5754,7 +5847,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1360</integer>
+			<integer>1625</integer>
 		</dict>
 		<key>08373D5F-976C-4F24-91B7-832299DB6C28</key>
 		<dict>
@@ -5815,6 +5908,17 @@ https://superpeer.com/chrismessina</string>
 			<integer>2415</integer>
 			<key>ypos</key>
 			<integer>710</integer>
+		</dict>
+		<key>109D7FC4-115E-4E82-9864-6A439C180E34</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>twitter app</string>
+			<key>xpos</key>
+			<integer>385</integer>
+			<key>ypos</key>
+			<integer>1340</integer>
 		</dict>
 		<key>130A87BD-E602-4AE4-A250-429A9CCC9A0A</key>
 		<dict>
@@ -5917,7 +6021,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>1195</integer>
+			<integer>1460</integer>
 		</dict>
 		<key>2538A442-1FDB-446D-BF11-E809609994B9</key>
 		<dict>
@@ -5987,7 +6091,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>225</integer>
 			<key>ypos</key>
-			<integer>2350</integer>
+			<integer>2615</integer>
 		</dict>
 		<key>3371009A-221D-43CB-9179-2B3367EB3264</key>
 		<dict>
@@ -6363,6 +6467,13 @@ https://superpeer.com/chrismessina</string>
 			<key>ypos</key>
 			<integer>840</integer>
 		</dict>
+		<key>6F5D9BF4-CD4D-4188-AAD1-0B988FA02543</key>
+		<dict>
+			<key>xpos</key>
+			<integer>385</integer>
+			<key>ypos</key>
+			<integer>1490</integer>
+		</dict>
 		<key>6FBCBE15-500C-4B99-90AB-A6A9292FF7AE</key>
 		<dict>
 			<key>note</key>
@@ -6400,7 +6511,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1230</integer>
+			<integer>1205</integer>
 		</dict>
 		<key>75401B8B-881D-4121-A9E2-AD12DE9B78ED</key>
 		<dict>
@@ -6429,7 +6540,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1650</integer>
+			<integer>1915</integer>
 		</dict>
 		<key>880082ED-0EA7-4D28-9D4B-56AF65F6C998</key>
 		<dict>
@@ -6440,7 +6551,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2330</integer>
+			<integer>2595</integer>
 		</dict>
 		<key>8AC4398B-1680-4E0B-B1A8-361838FF8706</key>
 		<dict>
@@ -6449,14 +6560,14 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>1925</integer>
+			<integer>2190</integer>
 		</dict>
 		<key>8B3C2A70-9D94-4AF8-B065-51D92C30C8D3</key>
 		<dict>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1790</integer>
+			<integer>2055</integer>
 		</dict>
 		<key>8B64EBE1-B237-49E7-9EAF-9B67A9476659</key>
 		<dict>
@@ -6556,7 +6667,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1520</integer>
+			<integer>1785</integer>
 		</dict>
 		<key>96702052-0092-4AE4-90D9-C6BF57FEFD6C</key>
 		<dict>
@@ -6749,7 +6860,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>1665</integer>
+			<integer>1930</integer>
 		</dict>
 		<key>BBCB3043-D13C-4FC6-B17C-3887C6934641</key>
 		<dict>
@@ -6773,6 +6884,13 @@ https://superpeer.com/chrismessina</string>
 			<key>ypos</key>
 			<integer>35</integer>
 		</dict>
+		<key>BCEBCC0B-BC5E-48A8-82FC-E31804E3C816</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>1430</integer>
+		</dict>
 		<key>BD7FFB53-969D-49AB-8985-9869CF056962</key>
 		<dict>
 			<key>note</key>
@@ -6780,7 +6898,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>2330</integer>
+			<integer>2595</integer>
 		</dict>
 		<key>BDF8D497-643A-4D1D-AC2A-F34C10A2A025</key>
 		<dict>
@@ -6823,14 +6941,14 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>2075</integer>
+			<integer>2340</integer>
 		</dict>
 		<key>C870DD93-3265-45C7-8236-17DD88197BEF</key>
 		<dict>
 			<key>xpos</key>
 			<integer>230</integer>
 			<key>ypos</key>
-			<integer>1280</integer>
+			<integer>1545</integer>
 		</dict>
 		<key>CABB527F-0E16-43A7-B2C3-2976A359EF03</key>
 		<dict>
@@ -6858,7 +6976,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>385</integer>
 			<key>ypos</key>
-			<integer>1925</integer>
+			<integer>2190</integer>
 		</dict>
 		<key>CF13E0D0-1C44-4DFB-81CA-1C1070912973</key>
 		<dict>
@@ -6917,7 +7035,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2060</integer>
+			<integer>2325</integer>
 		</dict>
 		<key>D849DAD3-24A9-4EA8-B710-C6A162DB649F</key>
 		<dict>
@@ -7076,7 +7194,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>230</integer>
 			<key>ypos</key>
-			<integer>1685</integer>
+			<integer>1950</integer>
 		</dict>
 		<key>F237E6F1-2A92-4EC9-BC05-773AD0D77E69</key>
 		<dict>
@@ -7117,7 +7235,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2200</integer>
+			<integer>2465</integer>
 		</dict>
 		<key>FB57DE92-58B0-4324-819D-5E873B962636</key>
 		<dict>
@@ -7140,7 +7258,7 @@ https://superpeer.com/chrismessina</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2460</integer>
+			<integer>2725</integer>
 		</dict>
 		<key>FD43669C-6FEA-4C92-854A-CE5728E200C8</key>
 		<dict>
@@ -7193,7 +7311,7 @@ https://superpeer.com/chrismessina</string>
 		<string>account</string>
 	</array>
 	<key>version</key>
-	<string>0.3.1</string>
+	<string>0.3.2</string>
 	<key>webaddress</key>
 	<string>https://chrismessina.me</string>
 </dict>

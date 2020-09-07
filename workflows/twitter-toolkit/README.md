@@ -127,6 +127,10 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 # Changelog[¹](https://keepachangelog.com/)
 
+## [v0.3.2] - 2020-09-07
+### Fixed
+- Quick fix for missing non-personalized `users` query.
+
 ## [v0.3.1] - 2020-09-06
 ### Fixed
 - Replaced "(from:{var:account})" with "from:{var:account}" (no parens) from app searches.

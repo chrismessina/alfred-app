@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.chrismessina.toolkits.sonos</string>
+	<key>category</key>
+	<string>Music</string>
+	<key>connections</key>
+	<dict>
+		<key>1E3DCE57-1F6C-4879-9948-16814106A679</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7801494D-1B54-47DF-A3EA-F678A9D531D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4B5F528A-609C-4890-AC09-37C5B3CC9A6C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>127A8C9F-2EB7-407F-AE91-C1B5D21233C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4DEEC5AB-2439-4CEF-94B9-3B6258F45093</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>08EB08AD-3CBA-4CB1-9C6E-F649D1D6579D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>54E2B958-DB62-445B-84DB-22C1526B553D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>48187ADB-ECA7-4272-BA37-D9230357ECB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5B01F796-DF7B-45DC-941C-7BDFDDE6A2CD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7801494D-1B54-47DF-A3EA-F678A9D531D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8447CCD2-A55D-4443-AA6A-3F83022EEF45</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>836EA8D3-DBB4-4C1E-B2EE-02A5FFF453E5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>88E93D8B-D7A8-4D62-AFA7-4EE31077D2CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30F9DDD6-F465-44F3-8C7D-420A1183A674</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>94AA3B53-B7F5-4182-97D6-8114A3CF1829</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EAA1D530-6E3E-4BEC-A165-9AFB157B3A76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A318C0F6-4841-4587-904B-BEBDE7B4905A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FA2C458C-BAF8-4F67-8C12-0759E2AF8C87</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CF4943B5-FFAF-408C-8725-6DC2DAC1967E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A762B6CF-3F43-4E16-A29B-515079BC3E8C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CFF07E3A-EB6B-4720-808E-E9C52057645E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>08EB08AD-3CBA-4CB1-9C6E-F649D1D6579D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DC995A67-8754-46EC-BDC4-529BB520CB44</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A762B6CF-3F43-4E16-A29B-515079BC3E8C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EAA1D530-6E3E-4BEC-A165-9AFB157B3A76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88A1F54A-11A2-41EB-86E9-4689FDF1522E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EE4A5074-6FBA-4B28-9BDC-6D75CD1B31F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>422FBA9F-5A81-4688-89FA-A69C2D92F697</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F0858183-1BFA-4921-8C5B-6C8539F9EDDD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DC995A67-8754-46EC-BDC4-529BB520CB44</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F09A0BB2-BA51-4992-929E-1741E04F7D4E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>836EA8D3-DBB4-4C1E-B2EE-02A5FFF453E5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA2C458C-BAF8-4F67-8C12-0759E2AF8C87</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E2A7295-E062-4881-AD01-65E19662C19E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Chris Messina</string>
+	<key>description</key>
+	<string>Control Sonos and search for music</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Sonos Toolkit</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+ 	tell application "System Events" to tell process "Sonos"		set value of slider 1 of window 1 to get (value of slider 1 of window 1) + 5
+	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>836EA8D3-DBB4-4C1E-B2EE-02A5FFF453E5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://github.com/chrismessina/alfred-app/blob/master/workflows/sonos-toolkit/src/info.plist?raw=true'
+readonly workflow_url='https://github.com/chrismessina/alfred-app/blob/master/workflows/sonos-toolkit/sonos-toolkit.alfredworkflow?raw=true'
+readonly download_type='direct'
+readonly frequency_check='30'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3C88755F-B264-48DC-B012-6B24EC7F8486</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>69</integer>
+				<key>hotmod</key>
+				<integer>3276800</integer>
+				<key>hotstring</key>
+				<string>+</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8447CCD2-A55D-4443-AA6A-3F83022EEF45</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>volume</string>
+				<key>subtext</key>
+				<string>Increase the volume level of Sonos playback</string>
+				<key>text</key>
+				<string>Increase Volume</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F09A0BB2-BA51-4992-929E-1741E04F7D4E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>27</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>_</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>CFF07E3A-EB6B-4720-808E-E9C52057645E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)	tell application "System Events" to tell process "Sonos"		set value of slider 1 of window 1 to get (value of slider 1 of window 1) - 5	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>08EB08AD-3CBA-4CB1-9C6E-F649D1D6579D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>volume</string>
+				<key>subtext</key>
+				<string>Lower the volume of Sonos playback</string>
+				<key>text</key>
+				<string>Lower volume</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4DEEC5AB-2439-4CEF-94B9-3B6258F45093</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>29</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>0</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1E3DCE57-1F6C-4879-9948-16814106A679</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "System Events"		tell process "Sonos"			click button 1 of window 1
+		end tell	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>7801494D-1B54-47DF-A3EA-F678A9D531D4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mute</string>
+				<key>subtext</key>
+				<string>Mute Sonos playback</string>
+				<key>text</key>
+				<string>Mute</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5B01F796-DF7B-45DC-941C-7BDFDDE6A2CD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>play</string>
+				<key>subtext</key>
+				<string>Play or pause Sonos playback</string>
+				<key>text</key>
+				<string>Play/Pause</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DC995A67-8754-46EC-BDC4-529BB520CB44</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0858183-1BFA-4921-8C5B-6C8539F9EDDD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 3 of window 1		end tell	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>A762B6CF-3F43-4E16-A29B-515079BC3E8C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>pause</string>
+				<key>subtext</key>
+				<string>Play or pause Sonos playback</string>
+				<key>text</key>
+				<string>Play/Pause</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CF4943B5-FFAF-408C-8725-6DC2DAC1967E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 7 of window 1		end tell	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>127A8C9F-2EB7-407F-AE91-C1B5D21233C9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>shuffle</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Turn on Shuffle</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4B5F528A-609C-4890-AC09-37C5B3CC9A6C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)	tell application "Sonos" to activate	tell application "System Events" to tell process "Sonos"		set frontmost to true		tell application "System Events" to tell process "Sonos"			key code 123 using command down			delay 0.2			key code 123 using command down		end tell	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>88A1F54A-11A2-41EB-86E9-4689FDF1522E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>previous</string>
+				<key>subtext</key>
+				<string>Go to the previous track</string>
+				<key>text</key>
+				<string>Previous Track</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EAA1D530-6E3E-4BEC-A165-9AFB157B3A76</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>94AA3B53-B7F5-4182-97D6-8114A3CF1829</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	tell application "Sonos" to activate	tell application "System Events"		key code 124 using {command down}	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>2E2A7295-E062-4881-AD01-65E19662C19E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>A318C0F6-4841-4587-904B-BEBDE7B4905A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>next</string>
+				<key>subtext</key>
+				<string>Advance to the next track</string>
+				<key>text</key>
+				<string>Next Track</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FA2C458C-BAF8-4F67-8C12-0759E2AF8C87</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>search</string>
+				<key>subtext</key>
+				<string>Search Sonos for {query}</string>
+				<key>text</key>
+				<string>Search Sonos</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EE4A5074-6FBA-4B28-9BDC-6D75CD1B31F8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	activate application "Sonos"
+	tell application "System Events" to tell process "Sonos"
+		set frontmost to true		delay 1		set the value of text field 1 of window 1 to q
+			click button 5 of window 1	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>422FBA9F-5A81-4688-89FA-A69C2D92F697</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mini</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Switch to Mini Controller</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>54E2B958-DB62-445B-84DB-22C1526B553D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click menu item "Mini Controller" of menu 1 of menu bar item "Window" of menu bar 1			(*		if exists (window 2 of process "Sonos") then*)			click button 10 of window 2 (* Close Main Window *)		end tell		(*		end if*)	end tell	return trueon error	return falseend tryend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>48187ADB-ECA7-4272-BA37-D9230357ECB7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>sonos</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Switch to Main Window</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>88E93D8B-D7A8-4D62-AFA7-4EE31077D2CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click button "Button" of window 1			click menu item "Sonos Controller" of menu 1 of menu bar item "Window" of menu bar 1		end tell	end tell	return trueon error	return falseend tryend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>30F9DDD6-F465-44F3-8C7D-420A1183A674</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>The Sonos Toolkit for Alfred offers a set of keywords that let you quickly interact with Sonos's [Mac app](https://support.sonos.com/s/downloads).
+
+It makes it easy to control playback directly from Alfred.
+
+🎩 You can find my Alfred Themes and Workflows here:
+
+https://chrismessina.github.io/alfred-app/
+
+☕ You can also tip me a coffee or two if you like:
+
+https://ko-fi.com/chris
+
+🤙🏻 I'm available for product design consulting as well:
+
+https://superpeer.com/chrismessina
+
+Inspired by Jeff Johns’s [Sonos Sound Controls workflow](https://github.com/phpfunk/alfred-sonos-sound-controls).</string>
+	<key>uidata</key>
+	<dict>
+		<key>08EB08AD-3CBA-4CB1-9C6E-F649D1D6579D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+		<key>127A8C9F-2EB7-407F-AE91-C1B5D21233C9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1010</integer>
+		</dict>
+		<key>1E3DCE57-1F6C-4879-9948-16814106A679</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>2E2A7295-E062-4881-AD01-65E19662C19E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1305</integer>
+		</dict>
+		<key>30F9DDD6-F465-44F3-8C7D-420A1183A674</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1775</integer>
+		</dict>
+		<key>3C88755F-B264-48DC-B012-6B24EC7F8486</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>735</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>422FBA9F-5A81-4688-89FA-A69C2D92F697</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1470</integer>
+		</dict>
+		<key>48187ADB-ECA7-4272-BA37-D9230357ECB7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1640</integer>
+		</dict>
+		<key>4B5F528A-609C-4890-AC09-37C5B3CC9A6C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1010</integer>
+		</dict>
+		<key>4DEEC5AB-2439-4CEF-94B9-3B6258F45093</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
+		<key>54E2B958-DB62-445B-84DB-22C1526B553D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1640</integer>
+		</dict>
+		<key>5B01F796-DF7B-45DC-941C-7BDFDDE6A2CD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>600</integer>
+		</dict>
+		<key>7801494D-1B54-47DF-A3EA-F678A9D531D4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>836EA8D3-DBB4-4C1E-B2EE-02A5FFF453E5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>8447CCD2-A55D-4443-AA6A-3F83022EEF45</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>88A1F54A-11A2-41EB-86E9-4689FDF1522E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1180</integer>
+		</dict>
+		<key>88E93D8B-D7A8-4D62-AFA7-4EE31077D2CA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1775</integer>
+		</dict>
+		<key>94AA3B53-B7F5-4182-97D6-8114A3CF1829</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>1180</integer>
+		</dict>
+		<key>A318C0F6-4841-4587-904B-BEBDE7B4905A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>1305</integer>
+		</dict>
+		<key>A762B6CF-3F43-4E16-A29B-515079BC3E8C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>765</integer>
+		</dict>
+		<key>CF4943B5-FFAF-408C-8725-6DC2DAC1967E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>885</integer>
+		</dict>
+		<key>CFF07E3A-EB6B-4720-808E-E9C52057645E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+		<key>DC995A67-8754-46EC-BDC4-529BB520CB44</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>765</integer>
+		</dict>
+		<key>EAA1D530-6E3E-4BEC-A165-9AFB157B3A76</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1180</integer>
+		</dict>
+		<key>EE4A5074-6FBA-4B28-9BDC-6D75CD1B31F8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1470</integer>
+		</dict>
+		<key>F0858183-1BFA-4921-8C5B-6C8539F9EDDD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>765</integer>
+		</dict>
+		<key>F09A0BB2-BA51-4992-929E-1741E04F7D4E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>FA2C458C-BAF8-4F67-8C12-0759E2AF8C87</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1305</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://chrismessina.me</string>
+</dict>
+</plist>

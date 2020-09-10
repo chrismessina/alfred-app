@@ -1,6 +1,6 @@
 # Alfred Workflows
 
-I have released two Alfred Workflows.
+I have released three Alfred Workflows.
 
 ## [Twitter Toolkit](./twitter-toolkit/)
 
@@ -9,6 +9,12 @@ I have released two Alfred Workflows.
 The Twitter Toolkit for Alfred is a set of keywords that let you quickly interact with Twitter's website and [Mac app](https://apps.apple.com/us/app/twitter/id1482454543?mt=12&uo=4).
 
 It makes it easy to quickly search and find your own content or the content of people you follow.
+
+## [Sonos Toolkit](./sonos-toolit/)
+
+<img src="../assets/icon-sonos.png" alt="Sonos logo" width="96" height="96">
+
+The Sonos Toolkit for Alfred offers a set of keywords that let you quickly interact with Sonos's [Mac app](https://support.sonos.com/s/downloads).
 
 ## [.New Cloud Documents](./new-cloud-documents/)
 

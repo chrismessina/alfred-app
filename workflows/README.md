@@ -10,7 +10,7 @@ The Twitter Toolkit for Alfred is a set of keywords that let you quickly interac
 
 It makes it easy to quickly search and find your own content or the content of people you follow.
 
-## [Sonos Toolkit](./sonos-toolit/)
+## [Sonos Toolkit](./sonos-toolkit/)
 
 <img src="../assets/icon-sonos.png" alt="Sonos logo" width="96" height="96">
 

@@ -16,6 +16,24 @@ This extension doesn't support programmatic access to Sonos, like searching your
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
 
+# Usage
+
+You can use the following keywords to control Sonos:
+
+|   Keyword        	|   Icon                                                              	|   Description                	|
+|------------------	|---------------------------------------------------------------------	|------------------------------	|
+|   `previous`     	|   <img src="./assets/icon-previous.png" width="96" height="96">     	|   Go to previous track       	|
+|   `pause`        	|   <img src="./assets/icon-pause.png" width="96" height="96">        	|   Pause audio                	|
+|   `play`         	|   <img src="./assets/icon-play.png" width="96" height="96">         	|   Play audio                 	|
+|   `next`         	|   <img src="./assets/icon-next.png" width="96" height="96">         	|   Advance to next track      	|
+|   `shuffle`      	|   <img src="./assets/icon-shuffle.png" width="96" height="96">      	|   Toggle shuffle             	|
+|   `mute`         	|   <img src="./assets/icon-mute.png" width="96" height="96">         	|   Mute audio                 	|
+|   `volume-down`  	|   <img src="./assets/icon-volume-down.png" width="96" height="96">  	|   Decrease volume            	|
+|   `volume-up`    	|   <img src="./assets/icon-volume-up.png" width="96" height="96">    	|   Increase volume            	|
+|   `search`       	|   <img src="./assets/icon-search.png" width="96" height="96">       	|   Search current source      	|
+|   `mini`         	|                                                                     	|   Switch to Mini Controller  	|
+|   `sonos`        	|                                                                     	|   Switch to Main Controller  	|
+
 # Changelog[¹](https://keepachangelog.com/)
 
 ## [v0.1.0] - 2020-08-06

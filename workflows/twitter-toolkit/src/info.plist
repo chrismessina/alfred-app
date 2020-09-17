@@ -4807,7 +4807,7 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>{var:domain}{/hashtag/{query}</string>
+				<string>{var:domain}/hashtag/{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -5792,7 +5792,7 @@ It is intended to make it easy to quickly search and your own content or the con
 
 I recommend setting your Twitter account name in the Workflow Environment Variables.
 
-You can set the platform variable to `web`, `app`, or 'tweetbot' if you use the Twitter for Mac or Tweetbot apps. 
+You can set the platform variable to `web`, `app`, or 'tweetbot' if you use the Twitter for Mac or Tweetbot apps.
 
 To see which platforms are supported by which platform, check out the Twitter Toolkit for Alfred page:
 

@@ -127,6 +127,10 @@ One of the most convenient features of this workflow is the ability to quickly s
 
 # Changelog[¹](https://keepachangelog.com/)
 
+## [v0.3.3] - 2020-09-17
+### Fixed
+- Quick fix for errant curly brace in `Go to hashtag` query.
+
 ## [v0.3.2] - 2020-09-07
 ### Fixed
 - Quick fix for missing non-personalized `users` query.

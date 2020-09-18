@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FB1CADFF",
+        "font" : "Hack",
+        "color" : "#F4EEE34C"
+      },
+      "shortcut" : {
+        "size" : 15,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Hack",
+        "color" : "#EDEFF07F"
+      },
+      "backgroundSelected" : "#1F162FFF",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#F4EEE3FF",
+        "font" : "Hack",
+        "color" : "#F4EEE3BF"
+      },
+      "iconPaddingHorizontal" : 15,
+      "paddingVertical" : 15,
+      "iconSize" : 38
+    },
+    "search" : {
+      "paddingVertical" : 0,
+      "background" : "#2B203BFF",
+      "spacing" : 30,
+      "text" : {
+        "size" : 22,
+        "colorSelected" : "#00EDFABF",
+        "font" : "Hack Bold",
+        "color" : "#FEFFFFE5"
+      },
+      "backgroundSelected" : "#2B203BFF"
+    },
+    "window" : {
+      "color" : "#2B203BFF",
+      "paddingHorizontal" : 0,
+      "width" : 600,
+      "borderPadding" : 15,
+      "borderColor" : "#2B203BFF",
+      "blur" : 5,
+      "roundness" : 1,
+      "paddingVertical" : 17
+    },
+    "credit" : "Chris Messina",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FB1CADFF",
+      "thickness" : 2
+    },
+    "name" : "Synthwave 84"
+  }
+}

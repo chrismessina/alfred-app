@@ -15,7 +15,7 @@
 Here is an [Alfred Powerpack Theme](https://www.alfredapp.com/help/appearance/) based on [Synthwave '84](https://robbowen.digital/wrote-about/synthwave-84/), an experimental Visual Studio theme influenced "by the music and the cover artwork of modern Synthwave bands like FM-84, Timecop 1983 and The Midnight".
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/synthwave-84/Synthwave%2084.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/synthwave-84/Synthwave%2084.alfredappearance" class="button">
     Download Theme
   </a>
 </p>
@@ -31,7 +31,7 @@ This theme makes use of Source Foundry's [Hack](https://github.com/source-foundr
 [![Synthwave 84 Theme - Alfred Theme Preview](./assets/synthwave-84.png)](./assets/synthwave-84.png)
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/synthwave-84/Synthwave%2084.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/synthwave-84/Synthwave%2084.alfredappearance" class="button">
     Download Theme
   </a>
 </p>

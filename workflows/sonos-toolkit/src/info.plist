@@ -244,7 +244,9 @@
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)
+				<string>---- Raise Volume--
+
+on alfred_script(q)
  	tell application "System Events" to tell process "Sonos"		set value of slider 1 of window 1 to get (value of slider 1 of window 1) + 5
 	end tell
 end alfred_script</string>
@@ -314,7 +316,9 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)
+				<string>---- Search--
+
+on alfred_script(q)
 	activate application "Sonos"
 	tell application "System Events" to tell process "Sonos"
 		set frontmost to true		delay 1		set the value of text field 1 of window 1 to q
@@ -385,7 +389,9 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)	tell application "System Events" to tell process "Sonos"		set value of slider 1 of window 1 to get (value of slider 1 of window 1) - 5	end tellend alfred_script</string>
+				<string>---- Lower Volume--
+
+on alfred_script(q)	tell application "System Events" to tell process "Sonos"		set value of slider 1 of window 1 to get (value of slider 1 of window 1) - 5	end tellend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -442,7 +448,9 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click menu item "Mini Controller" of menu 1 of menu bar item "Window" of menu bar 1			(*		if exists (window 2 of process "Sonos") then*)			click button 10 of window 2 (* Close Main Window *)		end tell		(*		end if*)	end tell	return trueon error	return falseend tryend alfred_script</string>
+				<string>---- Switch to Mini Player--
+
+on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click menu item "Mini Controller" of menu 1 of menu bar item "Window" of menu bar 1			(*		if exists (window 2 of process "Sonos") then*)			click button 10 of window 2 (* Close Main Window *)		end tell		(*		end if*)	end tell	return trueon error	return falseend tryend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -488,7 +496,9 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)
+				<string>---- Toggle Mute--
+
+on alfred_script(q)
   tell application "System Events"		tell process "Sonos"			click button 1 of window 1
 		end tell	end tell
 end alfred_script</string>
@@ -499,27 +509,6 @@ end alfred_script</string>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
 			<string>7801494D-1B54-47DF-A3EA-F678A9D531D4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>mute</string>
-				<key>subtext</key>
-				<string>Mute Sonos playback</string>
-				<key>text</key>
-				<string>Mute Volume</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>5B01F796-DF7B-45DC-941C-7BDFDDE6A2CD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -547,8 +536,31 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mute</string>
+				<key>subtext</key>
+				<string>Mute Sonos playback</string>
+				<key>text</key>
+				<string>Mute Volume</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5B01F796-DF7B-45DC-941C-7BDFDDE6A2CD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click button "Button" of window 1			click menu item "Sonos Controller" of menu 1 of menu bar item "Window" of menu bar 1		end tell	end tell	return trueon error	return falseend tryend alfred_script</string>
+				<string>---- Switch to Main Window--
+
+on alfred_script(q)try	tell application "System Events"		tell process "Sonos"			set frontmost to true			click button "Button" of window 1			click menu item "Sonos Controller" of menu 1 of menu bar item "Window" of menu bar 1		end tell	end tell	return trueon error	return falseend tryend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -706,7 +718,9 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 3 of window 1		end tell	end tellend alfred_script</string>
+				<string>---- Play/Pause--
+
+on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 3 of window 1		end tell	end tellend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -742,7 +756,9 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 7 of window 1		end tell	end tellend alfred_script</string>
+				<string>---- Toggle Shuffle--
+
+on alfred_script(q)	tell application "System Events"		tell process "Sonos"			click button 7 of window 1		end tell	end tellend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -778,7 +794,9 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)	tell application "Sonos" to activate	tell application "System Events" to tell process "Sonos"		set frontmost to true		tell application "System Events" to tell process "Sonos"			key code 123 using command down			delay 0.2			key code 123 using command down		end tell	end tellend alfred_script</string>
+				<string>---- Go to Previous Track--
+
+on alfred_script(q)	tell application "Sonos" to activate	tell application "System Events" to tell process "Sonos"		set frontmost to true		tell application "System Events" to tell process "Sonos"			key code 123 using command down			delay 0.2			key code 123 using command down		end tell	end tellend alfred_script</string>
 				<key>cachescript</key>
 				<false/>
 			</dict>
@@ -876,8 +894,8 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)
-	tell application "Sonos" to activate	tell application "System Events"		key code 124 using {command down}	end tell
+				<string>---- Go to Next Track--on alfred_script(q)
+	tell application "Sonos" to activate	tell application "System Events" to tell process "Sonos"		delay 1		try			key code 124 using {command down}		end try	end tell
 end alfred_script</string>
 				<key>cachescript</key>
 				<false/>
@@ -1135,7 +1153,7 @@ Inspired by Jeff Johns’s [Sonos Sound Controls workflow](https://github.com/ph
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.1</string>
+	<string>0.1.2</string>
 	<key>webaddress</key>
 	<string>https://chrismessina.me</string>
 </dict>

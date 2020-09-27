@@ -1,48 +1,49 @@
 <style type="text/css">
-  .button {
-    font-family: AtlasGrotesk,NotoSansCJKjp,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  	display: inline-block;
-  	zoom: 1;
-  	white-space: nowrap;
-  	vertical-align: middle;
-  	text-align: center;
-  	-ms-touch-action: manipulation;
-  	touch-action: manipulation;
-  	cursor: pointer;
-  	-webkit-user-drag: none;
-  	-moz-user-drag: none;
-  	-ms-user-drag: none;
-  	-o-user-drag: none;
-  	user-drag: none;
-  	-webkit-user-select: none;
-  	-moz-user-select: none;
-  	-ms-user-select: none;
-  	user-select: none;
-  	box-sizing: border-box;
-  	font-size: 14px;
-  	border: none;
-  	background-color: transparent;
-  	text-decoration: none;
-    font-weight: 500;
-  	line-height: 32px;
-  	border: none;
-  	padding: 0 16px;
-  	color: #fff;
-  	background-color: #0070e0;
-    border-radius: 4px;
-    height: 32px;
-  }
-  .button:hover, .button:focus {
-    background-color: #007af5;
-  }
-  .button:visited {
-    font-weight: 500;
-  	line-height: 32px;
-  	border: none;
-  	padding: 0 16px;
-  	color: #fff;
-  	background-color: #0070e0;
-  }
+.button {
+  -moz-user-drag:none;
+  -moz-user-select:none;
+  -ms-touch-action:manipulation;
+  -ms-user-drag:none;
+  -ms-user-select:none;
+  -o-user-drag:none;
+  -webkit-user-drag:none;
+  -webkit-user-select:none;
+  background-color:#0070e0;
+  border:none;
+  border-radius:4px;
+  box-sizing:border-box;
+  color:#fff;
+  cursor:pointer;
+  display:inline-block;
+  font-family:AtlasGrotesk,NotoSansCJKjp,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size:14px;
+  font-weight:700;
+  height:32px;
+  line-height:32px;
+  padding:0 16px;
+  text-align:center;
+  text-decoration:none;
+  touch-action:manipulation;
+  user-drag:none;
+  user-select:none;
+  vertical-align:middle;
+  white-space:nowrap;
+  zoom:1;
+}
+
+.button:hover,.button:focus {
+  background-color:#007af5;
+  color:#fff;
+}
+
+.button:visited {
+  background-color:#0070e0;
+  border:none;
+  color:#fff;
+  font-weight:500;
+  line-height:32px;
+  padding:0 16px;
+}
 </style>
 
 # Dropbox Paper Powerpack Themes

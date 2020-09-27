@@ -1,4 +1,4 @@
-<style>
+<style type="text/css">
   .button {
     transition: color 0.2s ease, text-decoration-color 0.2s ease, box-shadow 0.2s ease;
     transform: none;
@@ -35,7 +35,7 @@
 Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on [Hey](https://hey.com/), a new take on email from Basecamp.
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Themes%20for%20Alfred.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/hey-themes.zip" class="button">
     Download Themes
   </a>
 </p>
@@ -53,7 +53,7 @@ This theme makes use of Apple's [San Francisco font](https://developer.apple.com
 [![Hey Theme (Light) - Alfred Theme Preview](./assets/hey-light.png)](./assets/hey-light.png)
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Light).zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/hey-light-light.zip" class="button">
     Download - Hey Theme (Light)
   </a>
 </p>
@@ -63,7 +63,7 @@ This theme makes use of Apple's [San Francisco font](https://developer.apple.com
 [![Hey Theme (Dark) - Alfred Theme Preview](./assets/hey-dark.png)](./assets/hey-dark.png)
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/Hey%20Theme%20(Dark).zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/hey-light-dark.zip" class="button">
     Download - Hey Theme (Dark)
   </a>
 </p>

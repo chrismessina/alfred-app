@@ -1,4 +1,4 @@
-<style>
+<style type="text/css">
   .button {
     -webkit-user-select: none;
   	-moz-user-select: none;
@@ -38,7 +38,7 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
 [Superhuman](https://superhuman.com/) is a premium front-end for Gmail and is considered the fastest email experience ever made.
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Themes%20for%20Alfred.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/superhuman-themes.zip" class="button">
     Download Themes
   </a>
 </p>
@@ -57,7 +57,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 [![Superhuman Snow - Alfred Theme Preview](./assets/superhuman-snow.png)](./assets/superhuman-snow.png)
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Snow.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/superhuman-snow.zip" class="button">
     Download - Superhuman Snow Theme
   </a>
 </p>
@@ -67,7 +67,7 @@ This theme makes use of the open source [Fira Code font](https://github.com/tons
 [![Superhuman Carbon - Alfred Theme Preview](./assets/superhuman-carbon.png)](./assets/superhuman-carbon.png)
 
 <p align="center">
-  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/Superhuman%20Carbon.zip" class="button">
+  <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/superhuman-carbon.zip" class="button">
     Download - Superhuman Carbon Theme
   </a>
 </p>

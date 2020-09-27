@@ -1,5 +1,4 @@
-<style>
-<!--
+<style type="text/css">
   .button {
 
   }
@@ -9,7 +8,6 @@
   .button:visited {
 
   }
--->
 </style>
 
 # Synthwave 84 Powerpack Theme

@@ -1,5 +1,4 @@
-<style>
-<!--
+<style type="text/css">
   .button {
     font-family: AtlasGrotesk,NotoSansCJKjp,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   	display: inline-block;
@@ -44,7 +43,6 @@
   	color: #fff;
   	background-color: #0070e0;
   }
--->
 </style>
 
 # Dropbox Paper Powerpack Themes

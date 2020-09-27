@@ -14,6 +14,8 @@
 
 Here is an [Alfred Powerpack Theme](https://www.alfredapp.com/help/appearance/) based on [Synthwave '84](https://robbowen.digital/wrote-about/synthwave-84/), an experimental Visual Studio theme influenced "by the music and the cover artwork of modern Synthwave bands like FM-84, Timecop 1983 and The Midnight".
 
+[Discuss on Alfred Forum](https://www.alfredforum.com/topic/15740-a-theme-inspired-by-the-1980s-like-synthwave-84-for-vs-code/).
+
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/synthwave-84/synthwave-84.zip" class="button">
     Download Theme

@@ -34,6 +34,8 @@
 
 Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance/) that are based on [Hey](https://hey.com/), a new take on email from Basecamp.
 
+[Discuss on Alfred Forum](https://www.alfredforum.com/topic/15214-hey-email-inspired-themes/).
+
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/hey/hey-themes.zip" class="button">
     Download Themes

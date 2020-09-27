@@ -37,6 +37,8 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
 
 [Superhuman](https://superhuman.com/) is a premium front-end for Gmail and is considered the fastest email experience ever made.
 
+[Discuss on Alfred Forum](https://www.alfredforum.com/topic/12287-superhuman-light-and-carbon-themes/).
+
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/superhuman/superhuman-themes.zip" class="button">
     Download Themes

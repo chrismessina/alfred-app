@@ -52,6 +52,8 @@ Here are two [Alfred Powerpack Themes](https://www.alfredapp.com/help/appearance
 
 There are four variants in all: one light and one dark theme that each use Atlas Grotesk (Dropbox's official typeface); one light and one dark theme that each use Noto Sans, a free alternative.
 
+[Discuss on Alfred Forum](https://www.alfredforum.com/topic/15830-dropbox-paper-inspired-themes/).
+
 <p align="center">
   <a href="https://github.com/chrismessina/alfred-app/raw/master/themes/dropbox-paper/dropbox-paper-themes.zip" class="button">
     Download Themes

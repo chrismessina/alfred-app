@@ -40,7 +40,7 @@
     "window" : {
       "color" : "#161A21FF",
       "paddingHorizontal" : 0,
-      "width" : 680,
+      "width" : 580,
       "borderPadding" : 26,
       "borderColor" : "#161A21FF",
       "blur" : 5,

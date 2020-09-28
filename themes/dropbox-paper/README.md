@@ -66,6 +66,10 @@ Download the zip file above, unzip it, and then double-click each `.alfredappear
 
 ## Previews
 
+I recommend using Tomoyuki Kashiro's [Dropbox Paper Finder Workflow](https://github.com/tomoyukikashiro/dropbox-paper-alfred-workflow), which I [forked](https://github.com/chrismessina/dropbox-paper-alfred-workflow) to use the Dropbox Paper icon, and that you can see in action here:
+
+[![Dropbox Paper Finder Workflow](./assets/paper-workflow.gif)](./assets/paper-workflow.gif)
+
 ### Dropbox Atlas (Light)
 
 [![Dropbox Atlas (Light) - Alfred Theme Preview](./assets/dropbox-atlas-light.png)](./assets/dropbox-atlas-light.png)

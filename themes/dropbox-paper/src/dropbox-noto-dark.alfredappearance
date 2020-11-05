@@ -26,7 +26,7 @@
       "iconSize" : 32
     },
     "search" : {
-      "paddingVertical" : 14,
+      "paddingVertical" : 10,
       "background" : "#161A21FF",
       "spacing" : 4,
       "text" : {
@@ -39,12 +39,12 @@
     },
     "window" : {
       "color" : "#161A21FF",
-      "paddingHorizontal" : 0,
+      "paddingHorizontal" : 15,
       "width" : 580,
-      "borderPadding" : 26,
+      "borderPadding" : 15,
       "borderColor" : "#161A21FF",
       "blur" : 5,
-      "roundness" : -12,
+      "roundness" : 0,
       "paddingVertical" : 0
     },
     "credit" : "Chris Messina",

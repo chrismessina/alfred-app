@@ -39,13 +39,13 @@
     },
     "window" : {
       "color" : "#161A21FF",
-      "paddingHorizontal" : 0,
+      "paddingHorizontal" : 15,
       "width" : 580,
-      "borderPadding" : 26,
+      "borderPadding" : 15,
       "borderColor" : "#161A21FF",
       "blur" : 5,
-      "roundness" : -12,
-      "paddingVertical" : 0
+      "roundness" : 0,
+      "paddingVertical" : 10
     },
     "credit" : "Chris Messina",
     "separator" : {
